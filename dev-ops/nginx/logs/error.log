@@ -1,0 +1,679 @@
+2023/11/19 09:07:59 [notice] 1#1: using the "epoll" event method
+2023/11/19 09:07:59 [notice] 1#1: nginx/1.21.5
+2023/11/19 09:07:59 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/11/19 09:07:59 [notice] 1#1: OS: Linux 5.15.133.1-microsoft-standard-WSL2
+2023/11/19 09:07:59 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/11/19 09:07:59 [notice] 1#1: start worker processes
+2023/11/19 09:07:59 [notice] 1#1: start worker process 24
+2023/11/19 09:07:59 [notice] 1#1: start worker process 25
+2023/11/19 09:07:59 [notice] 1#1: start worker process 26
+2023/11/19 09:07:59 [notice] 1#1: start worker process 27
+2023/11/19 09:07:59 [notice] 1#1: start worker process 28
+2023/11/19 09:07:59 [notice] 1#1: start worker process 29
+2023/11/19 09:07:59 [notice] 1#1: start worker process 30
+2023/11/19 09:07:59 [notice] 1#1: start worker process 31
+2023/11/19 09:08:42 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/11/19 09:08:42 [notice] 24#24: gracefully shutting down
+2023/11/19 09:08:42 [notice] 24#24: exiting
+2023/11/19 09:08:42 [notice] 27#27: gracefully shutting down
+2023/11/19 09:08:42 [notice] 28#28: gracefully shutting down
+2023/11/19 09:08:42 [notice] 29#29: gracefully shutting down
+2023/11/19 09:08:42 [notice] 26#26: gracefully shutting down
+2023/11/19 09:08:42 [notice] 25#25: gracefully shutting down
+2023/11/19 09:08:42 [notice] 30#30: gracefully shutting down
+2023/11/19 09:08:42 [notice] 31#31: gracefully shutting down
+2023/11/19 09:08:42 [notice] 24#24: exit
+2023/11/19 09:08:42 [notice] 27#27: exiting
+2023/11/19 09:08:42 [notice] 28#28: exiting
+2023/11/19 09:08:42 [notice] 29#29: exiting
+2023/11/19 09:08:42 [notice] 26#26: exiting
+2023/11/19 09:08:42 [notice] 25#25: exiting
+2023/11/19 09:08:42 [notice] 30#30: exiting
+2023/11/19 09:08:42 [notice] 31#31: exiting
+2023/11/19 09:08:42 [notice] 27#27: exit
+2023/11/19 09:08:42 [notice] 28#28: exit
+2023/11/19 09:08:42 [notice] 29#29: exit
+2023/11/19 09:08:42 [notice] 26#26: exit
+2023/11/19 09:08:42 [notice] 25#25: exit
+2023/11/19 09:08:42 [notice] 30#30: exit
+2023/11/19 09:08:42 [notice] 31#31: exit
+2023/11/19 09:08:42 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2023/11/19 09:08:42 [notice] 1#1: worker process 24 exited with code 0
+2023/11/19 09:08:42 [notice] 1#1: worker process 28 exited with code 0
+2023/11/19 09:08:42 [notice] 1#1: signal 29 (SIGIO) received
+2023/11/19 09:08:42 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2023/11/19 09:08:42 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2023/11/19 09:08:42 [notice] 1#1: worker process 26 exited with code 0
+2023/11/19 09:08:42 [notice] 1#1: signal 29 (SIGIO) received
+2023/11/19 09:08:42 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2023/11/19 09:08:42 [notice] 1#1: worker process 27 exited with code 0
+2023/11/19 09:08:42 [notice] 1#1: signal 29 (SIGIO) received
+2023/11/19 09:08:42 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2023/11/19 09:08:42 [notice] 1#1: worker process 30 exited with code 0
+2023/11/19 09:08:42 [notice] 1#1: signal 29 (SIGIO) received
+2023/11/19 09:08:42 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2023/11/19 09:08:42 [notice] 1#1: worker process 31 exited with code 0
+2023/11/19 09:08:42 [notice] 1#1: signal 29 (SIGIO) received
+2023/11/19 09:08:42 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2023/11/19 09:08:42 [notice] 1#1: worker process 25 exited with code 0
+2023/11/19 09:08:42 [notice] 1#1: worker process 29 exited with code 0
+2023/11/19 09:08:42 [notice] 1#1: exit
+2023/11/19 09:08:58 [notice] 1#1: using the "epoll" event method
+2023/11/19 09:08:58 [notice] 1#1: nginx/1.21.5
+2023/11/19 09:08:58 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/11/19 09:08:58 [notice] 1#1: OS: Linux 5.15.133.1-microsoft-standard-WSL2
+2023/11/19 09:08:58 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/11/19 09:08:58 [notice] 1#1: start worker processes
+2023/11/19 09:08:58 [notice] 1#1: start worker process 24
+2023/11/19 09:08:58 [notice] 1#1: start worker process 25
+2023/11/19 09:08:58 [notice] 1#1: start worker process 26
+2023/11/19 09:08:58 [notice] 1#1: start worker process 27
+2023/11/19 09:08:58 [notice] 1#1: start worker process 28
+2023/11/19 09:08:58 [notice] 1#1: start worker process 29
+2023/11/19 09:08:58 [notice] 1#1: start worker process 30
+2023/11/19 09:08:58 [notice] 1#1: start worker process 31
+2023/11/19 13:07:46 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/11/19 13:07:46 [notice] 24#24: gracefully shutting down
+2023/11/19 13:07:46 [notice] 28#28: gracefully shutting down
+2023/11/19 13:07:46 [notice] 25#25: gracefully shutting down
+2023/11/19 13:07:46 [notice] 30#30: gracefully shutting down
+2023/11/19 13:07:46 [notice] 31#31: gracefully shutting down
+2023/11/19 13:07:46 [notice] 26#26: gracefully shutting down
+2023/11/19 13:07:46 [notice] 29#29: gracefully shutting down
+2023/11/19 13:07:46 [notice] 27#27: gracefully shutting down
+2023/11/19 13:07:46 [notice] 24#24: exiting
+2023/11/19 13:07:46 [notice] 28#28: exiting
+2023/11/19 13:07:46 [notice] 30#30: exiting
+2023/11/19 13:07:46 [notice] 25#25: exiting
+2023/11/19 13:07:46 [notice] 31#31: exiting
+2023/11/19 13:07:46 [notice] 26#26: exiting
+2023/11/19 13:07:46 [notice] 29#29: exiting
+2023/11/19 13:07:46 [notice] 27#27: exiting
+2023/11/19 13:07:46 [notice] 28#28: exit
+2023/11/19 13:07:46 [notice] 30#30: exit
+2023/11/19 13:07:46 [notice] 25#25: exit
+2023/11/19 13:07:46 [notice] 24#24: exit
+2023/11/19 13:07:46 [notice] 31#31: exit
+2023/11/19 13:07:46 [notice] 26#26: exit
+2023/11/19 13:07:46 [notice] 29#29: exit
+2023/11/19 13:07:46 [notice] 27#27: exit
+2023/11/19 13:07:46 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2023/11/19 13:07:46 [notice] 1#1: worker process 28 exited with code 0
+2023/11/19 13:07:46 [notice] 1#1: signal 29 (SIGIO) received
+2023/11/19 13:07:46 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2023/11/19 13:07:46 [notice] 1#1: worker process 25 exited with code 0
+2023/11/19 13:07:46 [notice] 1#1: worker process 26 exited with code 0
+2023/11/19 13:07:46 [notice] 1#1: worker process 31 exited with code 0
+2023/11/19 13:07:46 [notice] 1#1: signal 29 (SIGIO) received
+2023/11/19 13:07:46 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2023/11/19 13:07:46 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2023/11/19 13:07:46 [notice] 1#1: worker process 30 exited with code 0
+2023/11/19 13:07:46 [notice] 1#1: signal 29 (SIGIO) received
+2023/11/19 13:07:46 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2023/11/19 13:07:46 [notice] 1#1: worker process 27 exited with code 0
+2023/11/19 13:07:46 [notice] 1#1: signal 29 (SIGIO) received
+2023/11/19 13:07:46 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2023/11/19 13:07:46 [notice] 1#1: worker process 24 exited with code 0
+2023/11/19 13:07:46 [notice] 1#1: worker process 29 exited with code 0
+2023/11/19 13:07:46 [notice] 1#1: exit
+2023/11/19 13:07:48 [emerg] 1#1: invalid condition "$request_uri" in /etc/nginx/conf.d/default.conf:24
+2023/11/19 13:07:49 [emerg] 1#1: invalid condition "$request_uri" in /etc/nginx/conf.d/default.conf:24
+2023/11/19 13:07:49 [emerg] 1#1: invalid condition "$request_uri" in /etc/nginx/conf.d/default.conf:24
+2023/11/19 13:07:51 [emerg] 1#1: invalid condition "$request_uri" in /etc/nginx/conf.d/default.conf:24
+2023/11/19 13:07:52 [emerg] 1#1: invalid condition "$request_uri" in /etc/nginx/conf.d/default.conf:24
+2023/11/19 13:07:54 [emerg] 1#1: invalid condition "$request_uri" in /etc/nginx/conf.d/default.conf:24
+2023/11/19 13:07:58 [emerg] 1#1: invalid condition "$request_uri" in /etc/nginx/conf.d/default.conf:24
+2023/11/19 13:08:04 [emerg] 1#1: invalid condition "$request_uri" in /etc/nginx/conf.d/default.conf:24
+2023/11/19 13:08:17 [emerg] 1#1: invalid condition "$request_uri" in /etc/nginx/conf.d/default.conf:24
+2023/11/19 13:08:43 [emerg] 1#1: invalid condition "$request_uri" in /etc/nginx/conf.d/default.conf:24
+2023/11/19 13:09:35 [emerg] 1#1: invalid condition "$request_uri" in /etc/nginx/conf.d/default.conf:24
+2023/11/19 13:10:35 [emerg] 1#1: invalid condition "$request_uri" in /etc/nginx/conf.d/default.conf:24
+2023/11/19 13:11:36 [emerg] 1#1: invalid condition "$request_uri" in /etc/nginx/conf.d/default.conf:24
+2023/11/19 13:12:36 [emerg] 1#1: invalid condition "$request_uri" in /etc/nginx/conf.d/default.conf:24
+2023/11/19 13:13:37 [emerg] 1#1: invalid condition "$request_uri" in /etc/nginx/conf.d/default.conf:24
+2023/11/19 13:14:02 [emerg] 1#1: invalid condition "$request_uri" in /etc/nginx/conf.d/default.conf:24
+2023/11/19 13:14:02 [emerg] 1#1: invalid condition "$request_uri" in /etc/nginx/conf.d/default.conf:24
+2023/11/19 13:14:03 [emerg] 1#1: invalid condition "$request_uri" in /etc/nginx/conf.d/default.conf:24
+2023/11/19 13:14:04 [emerg] 1#1: invalid condition "$request_uri" in /etc/nginx/conf.d/default.conf:24
+2023/11/19 13:14:05 [emerg] 1#1: invalid condition "$request_uri" in /etc/nginx/conf.d/default.conf:24
+2023/11/19 13:14:07 [emerg] 1#1: invalid condition "$request_uri" in /etc/nginx/conf.d/default.conf:24
+2023/11/19 13:14:10 [emerg] 1#1: invalid condition "$request_uri" in /etc/nginx/conf.d/default.conf:24
+2023/11/19 13:14:17 [emerg] 1#1: invalid condition "$request_uri" in /etc/nginx/conf.d/default.conf:24
+2023/11/19 13:14:30 [emerg] 1#1: invalid condition "$request_uri" in /etc/nginx/conf.d/default.conf:24
+2023/11/19 13:14:56 [emerg] 1#1: invalid condition "$request_uri" in /etc/nginx/conf.d/default.conf:24
+2023/11/19 13:15:47 [emerg] 1#1: invalid condition "$request_uri" in /etc/nginx/conf.d/default.conf:24
+2023/11/19 13:17:34 [emerg] 1#1: invalid condition "$request_uri" in /etc/nginx/conf.d/default.conf:24
+2023/11/19 13:17:34 [emerg] 1#1: invalid condition "$request_uri" in /etc/nginx/conf.d/default.conf:24
+2023/11/19 13:17:35 [emerg] 1#1: invalid condition "$request_uri" in /etc/nginx/conf.d/default.conf:24
+2023/11/19 13:17:36 [emerg] 1#1: invalid condition "$request_uri" in /etc/nginx/conf.d/default.conf:24
+2023/11/19 13:17:37 [emerg] 1#1: invalid condition "$request_uri" in /etc/nginx/conf.d/default.conf:24
+2023/11/19 13:17:39 [emerg] 1#1: invalid condition "$request_uri" in /etc/nginx/conf.d/default.conf:24
+2023/11/19 13:17:42 [emerg] 1#1: invalid condition "$request_uri" in /etc/nginx/conf.d/default.conf:24
+2023/11/19 13:17:49 [emerg] 1#1: invalid condition "$request_uri" in /etc/nginx/conf.d/default.conf:24
+2023/11/19 13:22:09 [emerg] 1#1: invalid condition "$request_url" in /etc/nginx/conf.d/default.conf:24
+2023/11/19 13:22:10 [emerg] 1#1: invalid condition "$request_url" in /etc/nginx/conf.d/default.conf:24
+2023/11/19 13:22:10 [emerg] 1#1: invalid condition "$request_url" in /etc/nginx/conf.d/default.conf:24
+2023/11/19 13:22:11 [emerg] 1#1: invalid condition "$request_url" in /etc/nginx/conf.d/default.conf:24
+2023/11/19 13:22:12 [emerg] 1#1: invalid condition "$request_url" in /etc/nginx/conf.d/default.conf:24
+2023/11/19 13:22:14 [emerg] 1#1: invalid condition "$request_url" in /etc/nginx/conf.d/default.conf:24
+2023/11/19 13:22:18 [emerg] 1#1: invalid condition "$request_url" in /etc/nginx/conf.d/default.conf:24
+2023/11/19 13:22:25 [emerg] 1#1: invalid condition "$request_url" in /etc/nginx/conf.d/default.conf:24
+2023/11/19 13:22:38 [emerg] 1#1: invalid condition "$request_url" in /etc/nginx/conf.d/default.conf:24
+2023/11/19 13:24:59 [notice] 1#1: using the "epoll" event method
+2023/11/19 13:24:59 [notice] 1#1: nginx/1.21.5
+2023/11/19 13:24:59 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/11/19 13:24:59 [notice] 1#1: OS: Linux 5.15.133.1-microsoft-standard-WSL2
+2023/11/19 13:24:59 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/11/19 13:24:59 [notice] 1#1: start worker processes
+2023/11/19 13:24:59 [notice] 1#1: start worker process 24
+2023/11/19 13:24:59 [notice] 1#1: start worker process 25
+2023/11/19 13:24:59 [notice] 1#1: start worker process 26
+2023/11/19 13:24:59 [notice] 1#1: start worker process 27
+2023/11/19 13:24:59 [notice] 1#1: start worker process 28
+2023/11/19 13:24:59 [notice] 1#1: start worker process 29
+2023/11/19 13:24:59 [notice] 1#1: start worker process 30
+2023/11/19 13:24:59 [notice] 1#1: start worker process 31
+2023/11/19 13:25:20 [error] 25#25: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /api/?token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJjamMiLCJleHAiOjE3MDAzOTgxOTMsImlhdCI6MTcwMDM5Nzg5MywianRpIjoiMDRmYTZhOWEtODc5OS00MDNjLWIwZjYtOGYzNDc2MGY0MDdkIiwidXNlcm5hbWUiOiJjamMifQ.XiH2II7bYqo9k3DT4oi8ARBzjSIVlN4vCuWGVy5qZwk HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:8080/verify?token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJjamMiLCJleHAiOjE3MDAzOTgxOTMsImlhdCI6MTcwMDM5Nzg5MywianRpIjoiMDRmYTZhOWEtODc5OS00MDNjLWIwZjYtOGYzNDc2MGY0MDdkIiwidXNlcm5hbWUiOiJjamMifQ.XiH2II7bYqo9k3DT4oi8ARBzjSIVlN4vCuWGVy5qZwk", host: "localhost"
+2023/11/19 13:25:20 [warn] 25#25: *1 upstream server temporarily disabled while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /api/?token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJjamMiLCJleHAiOjE3MDAzOTgxOTMsImlhdCI6MTcwMDM5Nzg5MywianRpIjoiMDRmYTZhOWEtODc5OS00MDNjLWIwZjYtOGYzNDc2MGY0MDdkIiwidXNlcm5hbWUiOiJjamMifQ.XiH2II7bYqo9k3DT4oi8ARBzjSIVlN4vCuWGVy5qZwk HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:8080/verify?token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJjamMiLCJleHAiOjE3MDAzOTgxOTMsImlhdCI6MTcwMDM5Nzg5MywianRpIjoiMDRmYTZhOWEtODc5OS00MDNjLWIwZjYtOGYzNDc2MGY0MDdkIiwidXNlcm5hbWUiOiJjamMifQ.XiH2II7bYqo9k3DT4oi8ARBzjSIVlN4vCuWGVy5qZwk", host: "localhost"
+2023/11/19 13:25:20 [error] 25#25: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /api/?token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJjamMiLCJleHAiOjE3MDAzOTgxOTMsImlhdCI6MTcwMDM5Nzg5MywianRpIjoiMDRmYTZhOWEtODc5OS00MDNjLWIwZjYtOGYzNDc2MGY0MDdkIiwidXNlcm5hbWUiOiJjamMifQ.XiH2II7bYqo9k3DT4oi8ARBzjSIVlN4vCuWGVy5qZwk HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:8080/verify?token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJjamMiLCJleHAiOjE3MDAzOTgxOTMsImlhdCI6MTcwMDM5Nzg5MywianRpIjoiMDRmYTZhOWEtODc5OS00MDNjLWIwZjYtOGYzNDc2MGY0MDdkIiwidXNlcm5hbWUiOiJjamMifQ.XiH2II7bYqo9k3DT4oi8ARBzjSIVlN4vCuWGVy5qZwk", host: "localhost"
+2023/11/19 13:25:20 [warn] 25#25: *1 upstream server temporarily disabled while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /api/?token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJjamMiLCJleHAiOjE3MDAzOTgxOTMsImlhdCI6MTcwMDM5Nzg5MywianRpIjoiMDRmYTZhOWEtODc5OS00MDNjLWIwZjYtOGYzNDc2MGY0MDdkIiwidXNlcm5hbWUiOiJjamMifQ.XiH2II7bYqo9k3DT4oi8ARBzjSIVlN4vCuWGVy5qZwk HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:8080/verify?token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJjamMiLCJleHAiOjE3MDAzOTgxOTMsImlhdCI6MTcwMDM5Nzg5MywianRpIjoiMDRmYTZhOWEtODc5OS00MDNjLWIwZjYtOGYzNDc2MGY0MDdkIiwidXNlcm5hbWUiOiJjamMifQ.XiH2II7bYqo9k3DT4oi8ARBzjSIVlN4vCuWGVy5qZwk", host: "localhost"
+2023/11/19 13:25:20 [error] 25#25: *1 open() "/etc/nginx/html/50x.html" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /api/?token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJjamMiLCJleHAiOjE3MDAzOTgxOTMsImlhdCI6MTcwMDM5Nzg5MywianRpIjoiMDRmYTZhOWEtODc5OS00MDNjLWIwZjYtOGYzNDc2MGY0MDdkIiwidXNlcm5hbWUiOiJjamMifQ.XiH2II7bYqo9k3DT4oi8ARBzjSIVlN4vCuWGVy5qZwk HTTP/1.1", subrequest: "/50x.html", upstream: "http://127.0.0.1:8080/verify?token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJjamMiLCJleHAiOjE3MDAzOTgxOTMsImlhdCI6MTcwMDM5Nzg5MywianRpIjoiMDRmYTZhOWEtODc5OS00MDNjLWIwZjYtOGYzNDc2MGY0MDdkIiwidXNlcm5hbWUiOiJjamMifQ.XiH2II7bYqo9k3DT4oi8ARBzjSIVlN4vCuWGVy5qZwk", host: "localhost"
+2023/11/19 13:25:20 [error] 25#25: *1 auth request unexpected status: 404, client: 172.17.0.1, server: localhost, request: "GET /api/?token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJjamMiLCJleHAiOjE3MDAzOTgxOTMsImlhdCI6MTcwMDM5Nzg5MywianRpIjoiMDRmYTZhOWEtODc5OS00MDNjLWIwZjYtOGYzNDc2MGY0MDdkIiwidXNlcm5hbWUiOiJjamMifQ.XiH2II7bYqo9k3DT4oi8ARBzjSIVlN4vCuWGVy5qZwk HTTP/1.1", host: "localhost"
+2023/11/19 13:25:20 [error] 25#25: *1 open() "/etc/nginx/html/50x.html" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /api/?token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJjamMiLCJleHAiOjE3MDAzOTgxOTMsImlhdCI6MTcwMDM5Nzg5MywianRpIjoiMDRmYTZhOWEtODc5OS00MDNjLWIwZjYtOGYzNDc2MGY0MDdkIiwidXNlcm5hbWUiOiJjamMifQ.XiH2II7bYqo9k3DT4oi8ARBzjSIVlN4vCuWGVy5qZwk HTTP/1.1", host: "localhost"
+2023/11/19 13:25:30 [error] 24#24: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /api/?token=success HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:8080/verify?token=success", host: "localhost"
+2023/11/19 13:25:30 [warn] 24#24: *2 upstream server temporarily disabled while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /api/?token=success HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:8080/verify?token=success", host: "localhost"
+2023/11/19 13:25:30 [error] 24#24: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /api/?token=success HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:8080/verify?token=success", host: "localhost"
+2023/11/19 13:25:30 [warn] 24#24: *2 upstream server temporarily disabled while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /api/?token=success HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:8080/verify?token=success", host: "localhost"
+2023/11/19 13:25:30 [error] 24#24: *2 open() "/etc/nginx/html/50x.html" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /api/?token=success HTTP/1.1", subrequest: "/50x.html", upstream: "http://127.0.0.1:8080/verify?token=success", host: "localhost"
+2023/11/19 13:25:30 [error] 24#24: *2 auth request unexpected status: 404, client: 172.17.0.1, server: localhost, request: "GET /api/?token=success HTTP/1.1", host: "localhost"
+2023/11/19 13:25:30 [error] 24#24: *2 open() "/etc/nginx/html/50x.html" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /api/?token=success HTTP/1.1", host: "localhost"
+2023/11/19 13:25:43 [error] 25#25: *7 connect() failed (111: Connection refused) while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /api/?token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJjamMiLCJleHAiOjE3MDA0MDA2MzcsImlhdCI6MTcwMDQwMDMzNywianRpIjoiYzJmM2VkZTMtYjIxMy00ZGI4LTgyZGMtOWI1OTQ0YWQ1MTdjIiwidXNlcm5hbWUiOiJjamMifQ.x5iipaXot1X_JaIFo78A1j-bF-cFHFlIJ-noK9DDEK0 HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:8080/verify?token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJjamMiLCJleHAiOjE3MDA0MDA2MzcsImlhdCI6MTcwMDQwMDMzNywianRpIjoiYzJmM2VkZTMtYjIxMy00ZGI4LTgyZGMtOWI1OTQ0YWQ1MTdjIiwidXNlcm5hbWUiOiJjamMifQ.x5iipaXot1X_JaIFo78A1j-bF-cFHFlIJ-noK9DDEK0", host: "localhost"
+2023/11/19 13:25:43 [warn] 25#25: *7 upstream server temporarily disabled while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /api/?token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJjamMiLCJleHAiOjE3MDA0MDA2MzcsImlhdCI6MTcwMDQwMDMzNywianRpIjoiYzJmM2VkZTMtYjIxMy00ZGI4LTgyZGMtOWI1OTQ0YWQ1MTdjIiwidXNlcm5hbWUiOiJjamMifQ.x5iipaXot1X_JaIFo78A1j-bF-cFHFlIJ-noK9DDEK0 HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:8080/verify?token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJjamMiLCJleHAiOjE3MDA0MDA2MzcsImlhdCI6MTcwMDQwMDMzNywianRpIjoiYzJmM2VkZTMtYjIxMy00ZGI4LTgyZGMtOWI1OTQ0YWQ1MTdjIiwidXNlcm5hbWUiOiJjamMifQ.x5iipaXot1X_JaIFo78A1j-bF-cFHFlIJ-noK9DDEK0", host: "localhost"
+2023/11/19 13:25:43 [error] 25#25: *7 connect() failed (111: Connection refused) while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /api/?token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJjamMiLCJleHAiOjE3MDA0MDA2MzcsImlhdCI6MTcwMDQwMDMzNywianRpIjoiYzJmM2VkZTMtYjIxMy00ZGI4LTgyZGMtOWI1OTQ0YWQ1MTdjIiwidXNlcm5hbWUiOiJjamMifQ.x5iipaXot1X_JaIFo78A1j-bF-cFHFlIJ-noK9DDEK0 HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:8080/verify?token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJjamMiLCJleHAiOjE3MDA0MDA2MzcsImlhdCI6MTcwMDQwMDMzNywianRpIjoiYzJmM2VkZTMtYjIxMy00ZGI4LTgyZGMtOWI1OTQ0YWQ1MTdjIiwidXNlcm5hbWUiOiJjamMifQ.x5iipaXot1X_JaIFo78A1j-bF-cFHFlIJ-noK9DDEK0", host: "localhost"
+2023/11/19 13:25:43 [warn] 25#25: *7 upstream server temporarily disabled while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /api/?token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJjamMiLCJleHAiOjE3MDA0MDA2MzcsImlhdCI6MTcwMDQwMDMzNywianRpIjoiYzJmM2VkZTMtYjIxMy00ZGI4LTgyZGMtOWI1OTQ0YWQ1MTdjIiwidXNlcm5hbWUiOiJjamMifQ.x5iipaXot1X_JaIFo78A1j-bF-cFHFlIJ-noK9DDEK0 HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:8080/verify?token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJjamMiLCJleHAiOjE3MDA0MDA2MzcsImlhdCI6MTcwMDQwMDMzNywianRpIjoiYzJmM2VkZTMtYjIxMy00ZGI4LTgyZGMtOWI1OTQ0YWQ1MTdjIiwidXNlcm5hbWUiOiJjamMifQ.x5iipaXot1X_JaIFo78A1j-bF-cFHFlIJ-noK9DDEK0", host: "localhost"
+2023/11/19 13:25:43 [error] 25#25: *7 open() "/etc/nginx/html/50x.html" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /api/?token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJjamMiLCJleHAiOjE3MDA0MDA2MzcsImlhdCI6MTcwMDQwMDMzNywianRpIjoiYzJmM2VkZTMtYjIxMy00ZGI4LTgyZGMtOWI1OTQ0YWQ1MTdjIiwidXNlcm5hbWUiOiJjamMifQ.x5iipaXot1X_JaIFo78A1j-bF-cFHFlIJ-noK9DDEK0 HTTP/1.1", subrequest: "/50x.html", upstream: "http://127.0.0.1:8080/verify?token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJjamMiLCJleHAiOjE3MDA0MDA2MzcsImlhdCI6MTcwMDQwMDMzNywianRpIjoiYzJmM2VkZTMtYjIxMy00ZGI4LTgyZGMtOWI1OTQ0YWQ1MTdjIiwidXNlcm5hbWUiOiJjamMifQ.x5iipaXot1X_JaIFo78A1j-bF-cFHFlIJ-noK9DDEK0", host: "localhost"
+2023/11/19 13:25:43 [error] 25#25: *7 auth request unexpected status: 404, client: 172.17.0.1, server: localhost, request: "GET /api/?token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJjamMiLCJleHAiOjE3MDA0MDA2MzcsImlhdCI6MTcwMDQwMDMzNywianRpIjoiYzJmM2VkZTMtYjIxMy00ZGI4LTgyZGMtOWI1OTQ0YWQ1MTdjIiwidXNlcm5hbWUiOiJjamMifQ.x5iipaXot1X_JaIFo78A1j-bF-cFHFlIJ-noK9DDEK0 HTTP/1.1", host: "localhost"
+2023/11/19 13:25:43 [error] 25#25: *7 open() "/etc/nginx/html/50x.html" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /api/?token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJjamMiLCJleHAiOjE3MDA0MDA2MzcsImlhdCI6MTcwMDQwMDMzNywianRpIjoiYzJmM2VkZTMtYjIxMy00ZGI4LTgyZGMtOWI1OTQ0YWQ1MTdjIiwidXNlcm5hbWUiOiJjamMifQ.x5iipaXot1X_JaIFo78A1j-bF-cFHFlIJ-noK9DDEK0 HTTP/1.1", host: "localhost"
+2023/11/19 13:30:05 [error] 25#25: *12 connect() failed (111: Connection refused) while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /api/?token=success HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:8080/verify?token=success", host: "localhost"
+2023/11/19 13:30:05 [warn] 25#25: *12 upstream server temporarily disabled while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /api/?token=success HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:8080/verify?token=success", host: "localhost"
+2023/11/19 13:30:05 [error] 25#25: *12 connect() failed (111: Connection refused) while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /api/?token=success HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:8080/verify?token=success", host: "localhost"
+2023/11/19 13:30:05 [warn] 25#25: *12 upstream server temporarily disabled while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /api/?token=success HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:8080/verify?token=success", host: "localhost"
+2023/11/19 13:30:05 [error] 25#25: *12 open() "/etc/nginx/html/50x.html" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /api/?token=success HTTP/1.1", subrequest: "/50x.html", upstream: "http://127.0.0.1:8080/verify?token=success", host: "localhost"
+2023/11/19 13:30:05 [error] 25#25: *12 auth request unexpected status: 404, client: 172.17.0.1, server: localhost, request: "GET /api/?token=success HTTP/1.1", host: "localhost"
+2023/11/19 13:30:05 [error] 25#25: *12 open() "/etc/nginx/html/50x.html" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /api/?token=success HTTP/1.1", host: "localhost"
+2023/11/19 13:30:53 [error] 25#25: *11 connect() failed (111: Connection refused) while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /api/?token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJjamMiLCJleHAiOjE3MDA0MDA2MzcsImlhdCI6MTcwMDQwMDMzNywianRpIjoiYzJmM2VkZTMtYjIxMy00ZGI4LTgyZGMtOWI1OTQ0YWQ1MTdjIiwidXNlcm5hbWUiOiJjamMifQ.x5iipaXot1X_JaIFo78A1j-bF-cFHFlIJ-noK9DDEK0 HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:8080/verify?token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJjamMiLCJleHAiOjE3MDA0MDA2MzcsImlhdCI6MTcwMDQwMDMzNywianRpIjoiYzJmM2VkZTMtYjIxMy00ZGI4LTgyZGMtOWI1OTQ0YWQ1MTdjIiwidXNlcm5hbWUiOiJjamMifQ.x5iipaXot1X_JaIFo78A1j-bF-cFHFlIJ-noK9DDEK0", host: "localhost"
+2023/11/19 13:30:53 [warn] 25#25: *11 upstream server temporarily disabled while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /api/?token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJjamMiLCJleHAiOjE3MDA0MDA2MzcsImlhdCI6MTcwMDQwMDMzNywianRpIjoiYzJmM2VkZTMtYjIxMy00ZGI4LTgyZGMtOWI1OTQ0YWQ1MTdjIiwidXNlcm5hbWUiOiJjamMifQ.x5iipaXot1X_JaIFo78A1j-bF-cFHFlIJ-noK9DDEK0 HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:8080/verify?token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJjamMiLCJleHAiOjE3MDA0MDA2MzcsImlhdCI6MTcwMDQwMDMzNywianRpIjoiYzJmM2VkZTMtYjIxMy00ZGI4LTgyZGMtOWI1OTQ0YWQ1MTdjIiwidXNlcm5hbWUiOiJjamMifQ.x5iipaXot1X_JaIFo78A1j-bF-cFHFlIJ-noK9DDEK0", host: "localhost"
+2023/11/19 13:30:53 [error] 25#25: *11 connect() failed (111: Connection refused) while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /api/?token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJjamMiLCJleHAiOjE3MDA0MDA2MzcsImlhdCI6MTcwMDQwMDMzNywianRpIjoiYzJmM2VkZTMtYjIxMy00ZGI4LTgyZGMtOWI1OTQ0YWQ1MTdjIiwidXNlcm5hbWUiOiJjamMifQ.x5iipaXot1X_JaIFo78A1j-bF-cFHFlIJ-noK9DDEK0 HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:8080/verify?token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJjamMiLCJleHAiOjE3MDA0MDA2MzcsImlhdCI6MTcwMDQwMDMzNywianRpIjoiYzJmM2VkZTMtYjIxMy00ZGI4LTgyZGMtOWI1OTQ0YWQ1MTdjIiwidXNlcm5hbWUiOiJjamMifQ.x5iipaXot1X_JaIFo78A1j-bF-cFHFlIJ-noK9DDEK0", host: "localhost"
+2023/11/19 13:30:53 [warn] 25#25: *11 upstream server temporarily disabled while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /api/?token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJjamMiLCJleHAiOjE3MDA0MDA2MzcsImlhdCI6MTcwMDQwMDMzNywianRpIjoiYzJmM2VkZTMtYjIxMy00ZGI4LTgyZGMtOWI1OTQ0YWQ1MTdjIiwidXNlcm5hbWUiOiJjamMifQ.x5iipaXot1X_JaIFo78A1j-bF-cFHFlIJ-noK9DDEK0 HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:8080/verify?token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJjamMiLCJleHAiOjE3MDA0MDA2MzcsImlhdCI6MTcwMDQwMDMzNywianRpIjoiYzJmM2VkZTMtYjIxMy00ZGI4LTgyZGMtOWI1OTQ0YWQ1MTdjIiwidXNlcm5hbWUiOiJjamMifQ.x5iipaXot1X_JaIFo78A1j-bF-cFHFlIJ-noK9DDEK0", host: "localhost"
+2023/11/19 13:30:53 [error] 25#25: *11 open() "/etc/nginx/html/50x.html" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /api/?token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJjamMiLCJleHAiOjE3MDA0MDA2MzcsImlhdCI6MTcwMDQwMDMzNywianRpIjoiYzJmM2VkZTMtYjIxMy00ZGI4LTgyZGMtOWI1OTQ0YWQ1MTdjIiwidXNlcm5hbWUiOiJjamMifQ.x5iipaXot1X_JaIFo78A1j-bF-cFHFlIJ-noK9DDEK0 HTTP/1.1", subrequest: "/50x.html", upstream: "http://127.0.0.1:8080/verify?token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJjamMiLCJleHAiOjE3MDA0MDA2MzcsImlhdCI6MTcwMDQwMDMzNywianRpIjoiYzJmM2VkZTMtYjIxMy00ZGI4LTgyZGMtOWI1OTQ0YWQ1MTdjIiwidXNlcm5hbWUiOiJjamMifQ.x5iipaXot1X_JaIFo78A1j-bF-cFHFlIJ-noK9DDEK0", host: "localhost"
+2023/11/19 13:30:53 [error] 25#25: *11 auth request unexpected status: 404, client: 172.17.0.1, server: localhost, request: "GET /api/?token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJjamMiLCJleHAiOjE3MDA0MDA2MzcsImlhdCI6MTcwMDQwMDMzNywianRpIjoiYzJmM2VkZTMtYjIxMy00ZGI4LTgyZGMtOWI1OTQ0YWQ1MTdjIiwidXNlcm5hbWUiOiJjamMifQ.x5iipaXot1X_JaIFo78A1j-bF-cFHFlIJ-noK9DDEK0 HTTP/1.1", host: "localhost"
+2023/11/19 13:30:53 [error] 25#25: *11 open() "/etc/nginx/html/50x.html" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /api/?token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJjamMiLCJleHAiOjE3MDA0MDA2MzcsImlhdCI6MTcwMDQwMDMzNywianRpIjoiYzJmM2VkZTMtYjIxMy00ZGI4LTgyZGMtOWI1OTQ0YWQ1MTdjIiwidXNlcm5hbWUiOiJjamMifQ.x5iipaXot1X_JaIFo78A1j-bF-cFHFlIJ-noK9DDEK0 HTTP/1.1", host: "localhost"
+2023/11/19 13:31:08 [error] 24#24: *16 connect() failed (111: Connection refused) while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /api/?token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJjamMiLCJleHAiOjE3MDA0MDA2MzcsImlhdCI6MTcwMDQwMDMzNywianRpIjoiYzJmM2VkZTMtYjIxMy00ZGI4LTgyZGMtOWI1OTQ0YWQ1MTdjIiwidXNlcm5hbWUiOiJjamMifQ.x5iipaXot1X_JaIFo78A1j-bF-cFHFlIJ-noK9DDEK0 HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:8080/verify?token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJjamMiLCJleHAiOjE3MDA0MDA2MzcsImlhdCI6MTcwMDQwMDMzNywianRpIjoiYzJmM2VkZTMtYjIxMy00ZGI4LTgyZGMtOWI1OTQ0YWQ1MTdjIiwidXNlcm5hbWUiOiJjamMifQ.x5iipaXot1X_JaIFo78A1j-bF-cFHFlIJ-noK9DDEK0", host: "localhost"
+2023/11/19 13:31:08 [warn] 24#24: *16 upstream server temporarily disabled while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /api/?token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJjamMiLCJleHAiOjE3MDA0MDA2MzcsImlhdCI6MTcwMDQwMDMzNywianRpIjoiYzJmM2VkZTMtYjIxMy00ZGI4LTgyZGMtOWI1OTQ0YWQ1MTdjIiwidXNlcm5hbWUiOiJjamMifQ.x5iipaXot1X_JaIFo78A1j-bF-cFHFlIJ-noK9DDEK0 HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:8080/verify?token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJjamMiLCJleHAiOjE3MDA0MDA2MzcsImlhdCI6MTcwMDQwMDMzNywianRpIjoiYzJmM2VkZTMtYjIxMy00ZGI4LTgyZGMtOWI1OTQ0YWQ1MTdjIiwidXNlcm5hbWUiOiJjamMifQ.x5iipaXot1X_JaIFo78A1j-bF-cFHFlIJ-noK9DDEK0", host: "localhost"
+2023/11/19 13:31:08 [error] 24#24: *16 connect() failed (111: Connection refused) while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /api/?token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJjamMiLCJleHAiOjE3MDA0MDA2MzcsImlhdCI6MTcwMDQwMDMzNywianRpIjoiYzJmM2VkZTMtYjIxMy00ZGI4LTgyZGMtOWI1OTQ0YWQ1MTdjIiwidXNlcm5hbWUiOiJjamMifQ.x5iipaXot1X_JaIFo78A1j-bF-cFHFlIJ-noK9DDEK0 HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:8080/verify?token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJjamMiLCJleHAiOjE3MDA0MDA2MzcsImlhdCI6MTcwMDQwMDMzNywianRpIjoiYzJmM2VkZTMtYjIxMy00ZGI4LTgyZGMtOWI1OTQ0YWQ1MTdjIiwidXNlcm5hbWUiOiJjamMifQ.x5iipaXot1X_JaIFo78A1j-bF-cFHFlIJ-noK9DDEK0", host: "localhost"
+2023/11/19 13:31:08 [warn] 24#24: *16 upstream server temporarily disabled while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /api/?token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJjamMiLCJleHAiOjE3MDA0MDA2MzcsImlhdCI6MTcwMDQwMDMzNywianRpIjoiYzJmM2VkZTMtYjIxMy00ZGI4LTgyZGMtOWI1OTQ0YWQ1MTdjIiwidXNlcm5hbWUiOiJjamMifQ.x5iipaXot1X_JaIFo78A1j-bF-cFHFlIJ-noK9DDEK0 HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:8080/verify?token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJjamMiLCJleHAiOjE3MDA0MDA2MzcsImlhdCI6MTcwMDQwMDMzNywianRpIjoiYzJmM2VkZTMtYjIxMy00ZGI4LTgyZGMtOWI1OTQ0YWQ1MTdjIiwidXNlcm5hbWUiOiJjamMifQ.x5iipaXot1X_JaIFo78A1j-bF-cFHFlIJ-noK9DDEK0", host: "localhost"
+2023/11/19 13:31:08 [error] 24#24: *16 open() "/etc/nginx/html/50x.html" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /api/?token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJjamMiLCJleHAiOjE3MDA0MDA2MzcsImlhdCI6MTcwMDQwMDMzNywianRpIjoiYzJmM2VkZTMtYjIxMy00ZGI4LTgyZGMtOWI1OTQ0YWQ1MTdjIiwidXNlcm5hbWUiOiJjamMifQ.x5iipaXot1X_JaIFo78A1j-bF-cFHFlIJ-noK9DDEK0 HTTP/1.1", subrequest: "/50x.html", upstream: "http://127.0.0.1:8080/verify?token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJjamMiLCJleHAiOjE3MDA0MDA2MzcsImlhdCI6MTcwMDQwMDMzNywianRpIjoiYzJmM2VkZTMtYjIxMy00ZGI4LTgyZGMtOWI1OTQ0YWQ1MTdjIiwidXNlcm5hbWUiOiJjamMifQ.x5iipaXot1X_JaIFo78A1j-bF-cFHFlIJ-noK9DDEK0", host: "localhost"
+2023/11/19 13:31:08 [error] 24#24: *16 auth request unexpected status: 404, client: 172.17.0.1, server: localhost, request: "GET /api/?token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJjamMiLCJleHAiOjE3MDA0MDA2MzcsImlhdCI6MTcwMDQwMDMzNywianRpIjoiYzJmM2VkZTMtYjIxMy00ZGI4LTgyZGMtOWI1OTQ0YWQ1MTdjIiwidXNlcm5hbWUiOiJjamMifQ.x5iipaXot1X_JaIFo78A1j-bF-cFHFlIJ-noK9DDEK0 HTTP/1.1", host: "localhost"
+2023/11/19 13:31:08 [error] 24#24: *16 open() "/etc/nginx/html/50x.html" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /api/?token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJjamMiLCJleHAiOjE3MDA0MDA2MzcsImlhdCI6MTcwMDQwMDMzNywianRpIjoiYzJmM2VkZTMtYjIxMy00ZGI4LTgyZGMtOWI1OTQ0YWQ1MTdjIiwidXNlcm5hbWUiOiJjamMifQ.x5iipaXot1X_JaIFo78A1j-bF-cFHFlIJ-noK9DDEK0 HTTP/1.1", host: "localhost"
+2023/11/19 13:31:44 [error] 25#25: *19 connect() failed (111: Connection refused) while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /api/?token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJjamMiLCJleHAiOjE3MDA0MDA2MzcsImlhdCI6MTcwMDQwMDMzNywianRpIjoiYzJmM2VkZTMtYjIxMy00ZGI4LTgyZGMtOWI1OTQ0YWQ1MTdjIiwidXNlcm5hbWUiOiJjamMifQ.x5iipaXot1X_JaIFo78A1j-bF-cFHFlIJ-noK9DDEK0 HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:8080/verify?token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJjamMiLCJleHAiOjE3MDA0MDA2MzcsImlhdCI6MTcwMDQwMDMzNywianRpIjoiYzJmM2VkZTMtYjIxMy00ZGI4LTgyZGMtOWI1OTQ0YWQ1MTdjIiwidXNlcm5hbWUiOiJjamMifQ.x5iipaXot1X_JaIFo78A1j-bF-cFHFlIJ-noK9DDEK0", host: "localhost"
+2023/11/19 13:31:44 [warn] 25#25: *19 upstream server temporarily disabled while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /api/?token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJjamMiLCJleHAiOjE3MDA0MDA2MzcsImlhdCI6MTcwMDQwMDMzNywianRpIjoiYzJmM2VkZTMtYjIxMy00ZGI4LTgyZGMtOWI1OTQ0YWQ1MTdjIiwidXNlcm5hbWUiOiJjamMifQ.x5iipaXot1X_JaIFo78A1j-bF-cFHFlIJ-noK9DDEK0 HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:8080/verify?token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJjamMiLCJleHAiOjE3MDA0MDA2MzcsImlhdCI6MTcwMDQwMDMzNywianRpIjoiYzJmM2VkZTMtYjIxMy00ZGI4LTgyZGMtOWI1OTQ0YWQ1MTdjIiwidXNlcm5hbWUiOiJjamMifQ.x5iipaXot1X_JaIFo78A1j-bF-cFHFlIJ-noK9DDEK0", host: "localhost"
+2023/11/19 13:31:44 [error] 25#25: *19 connect() failed (111: Connection refused) while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /api/?token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJjamMiLCJleHAiOjE3MDA0MDA2MzcsImlhdCI6MTcwMDQwMDMzNywianRpIjoiYzJmM2VkZTMtYjIxMy00ZGI4LTgyZGMtOWI1OTQ0YWQ1MTdjIiwidXNlcm5hbWUiOiJjamMifQ.x5iipaXot1X_JaIFo78A1j-bF-cFHFlIJ-noK9DDEK0 HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:8080/verify?token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJjamMiLCJleHAiOjE3MDA0MDA2MzcsImlhdCI6MTcwMDQwMDMzNywianRpIjoiYzJmM2VkZTMtYjIxMy00ZGI4LTgyZGMtOWI1OTQ0YWQ1MTdjIiwidXNlcm5hbWUiOiJjamMifQ.x5iipaXot1X_JaIFo78A1j-bF-cFHFlIJ-noK9DDEK0", host: "localhost"
+2023/11/19 13:31:44 [warn] 25#25: *19 upstream server temporarily disabled while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /api/?token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJjamMiLCJleHAiOjE3MDA0MDA2MzcsImlhdCI6MTcwMDQwMDMzNywianRpIjoiYzJmM2VkZTMtYjIxMy00ZGI4LTgyZGMtOWI1OTQ0YWQ1MTdjIiwidXNlcm5hbWUiOiJjamMifQ.x5iipaXot1X_JaIFo78A1j-bF-cFHFlIJ-noK9DDEK0 HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:8080/verify?token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJjamMiLCJleHAiOjE3MDA0MDA2MzcsImlhdCI6MTcwMDQwMDMzNywianRpIjoiYzJmM2VkZTMtYjIxMy00ZGI4LTgyZGMtOWI1OTQ0YWQ1MTdjIiwidXNlcm5hbWUiOiJjamMifQ.x5iipaXot1X_JaIFo78A1j-bF-cFHFlIJ-noK9DDEK0", host: "localhost"
+2023/11/19 13:31:44 [error] 25#25: *19 open() "/etc/nginx/html/50x.html" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /api/?token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJjamMiLCJleHAiOjE3MDA0MDA2MzcsImlhdCI6MTcwMDQwMDMzNywianRpIjoiYzJmM2VkZTMtYjIxMy00ZGI4LTgyZGMtOWI1OTQ0YWQ1MTdjIiwidXNlcm5hbWUiOiJjamMifQ.x5iipaXot1X_JaIFo78A1j-bF-cFHFlIJ-noK9DDEK0 HTTP/1.1", subrequest: "/50x.html", upstream: "http://127.0.0.1:8080/verify?token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJjamMiLCJleHAiOjE3MDA0MDA2MzcsImlhdCI6MTcwMDQwMDMzNywianRpIjoiYzJmM2VkZTMtYjIxMy00ZGI4LTgyZGMtOWI1OTQ0YWQ1MTdjIiwidXNlcm5hbWUiOiJjamMifQ.x5iipaXot1X_JaIFo78A1j-bF-cFHFlIJ-noK9DDEK0", host: "localhost"
+2023/11/19 13:31:44 [error] 25#25: *19 auth request unexpected status: 404, client: 172.17.0.1, server: localhost, request: "GET /api/?token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJjamMiLCJleHAiOjE3MDA0MDA2MzcsImlhdCI6MTcwMDQwMDMzNywianRpIjoiYzJmM2VkZTMtYjIxMy00ZGI4LTgyZGMtOWI1OTQ0YWQ1MTdjIiwidXNlcm5hbWUiOiJjamMifQ.x5iipaXot1X_JaIFo78A1j-bF-cFHFlIJ-noK9DDEK0 HTTP/1.1", host: "localhost"
+2023/11/19 13:31:44 [error] 25#25: *19 open() "/etc/nginx/html/50x.html" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /api/?token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJjamMiLCJleHAiOjE3MDA0MDA2MzcsImlhdCI6MTcwMDQwMDMzNywianRpIjoiYzJmM2VkZTMtYjIxMy00ZGI4LTgyZGMtOWI1OTQ0YWQ1MTdjIiwidXNlcm5hbWUiOiJjamMifQ.x5iipaXot1X_JaIFo78A1j-bF-cFHFlIJ-noK9DDEK0 HTTP/1.1", host: "localhost"
+2023/11/19 14:09:25 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/11/19 14:09:25 [notice] 24#24: gracefully shutting down
+2023/11/19 14:09:25 [notice] 31#31: gracefully shutting down
+2023/11/19 14:09:25 [notice] 25#25: gracefully shutting down
+2023/11/19 14:09:25 [notice] 27#27: gracefully shutting down
+2023/11/19 14:09:25 [notice] 26#26: gracefully shutting down
+2023/11/19 14:09:25 [notice] 30#30: gracefully shutting down
+2023/11/19 14:09:25 [notice] 29#29: gracefully shutting down
+2023/11/19 14:09:25 [notice] 28#28: gracefully shutting down
+2023/11/19 14:09:25 [notice] 24#24: exiting
+2023/11/19 14:09:25 [notice] 31#31: exiting
+2023/11/19 14:09:25 [notice] 25#25: exiting
+2023/11/19 14:09:25 [notice] 27#27: exiting
+2023/11/19 14:09:25 [notice] 26#26: exiting
+2023/11/19 14:09:25 [notice] 30#30: exiting
+2023/11/19 14:09:25 [notice] 29#29: exiting
+2023/11/19 14:09:25 [notice] 28#28: exiting
+2023/11/19 14:09:25 [notice] 24#24: exit
+2023/11/19 14:09:25 [notice] 31#31: exit
+2023/11/19 14:09:25 [notice] 25#25: exit
+2023/11/19 14:09:25 [notice] 27#27: exit
+2023/11/19 14:09:25 [notice] 26#26: exit
+2023/11/19 14:09:25 [notice] 30#30: exit
+2023/11/19 14:09:25 [notice] 29#29: exit
+2023/11/19 14:09:25 [notice] 28#28: exit
+2023/11/19 14:09:25 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2023/11/19 14:09:25 [notice] 1#1: worker process 25 exited with code 0
+2023/11/19 14:09:25 [notice] 1#1: worker process 27 exited with code 0
+2023/11/19 14:09:25 [notice] 1#1: signal 29 (SIGIO) received
+2023/11/19 14:09:25 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2023/11/19 14:09:25 [notice] 1#1: worker process 30 exited with code 0
+2023/11/19 14:09:25 [notice] 1#1: signal 29 (SIGIO) received
+2023/11/19 14:09:25 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2023/11/19 14:09:25 [notice] 1#1: worker process 28 exited with code 0
+2023/11/19 14:09:25 [notice] 1#1: signal 29 (SIGIO) received
+2023/11/19 14:09:25 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2023/11/19 14:09:25 [notice] 1#1: worker process 26 exited with code 0
+2023/11/19 14:09:25 [notice] 1#1: worker process 29 exited with code 0
+2023/11/19 14:09:25 [notice] 1#1: signal 29 (SIGIO) received
+2023/11/19 14:09:25 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2023/11/19 14:09:25 [notice] 1#1: worker process 24 exited with code 0
+2023/11/19 14:09:25 [notice] 1#1: signal 29 (SIGIO) received
+2023/11/19 14:09:25 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2023/11/19 14:09:25 [notice] 1#1: worker process 31 exited with code 0
+2023/11/19 14:09:25 [notice] 1#1: exit
+2023/11/19 14:09:26 [notice] 1#1: using the "epoll" event method
+2023/11/19 14:09:26 [notice] 1#1: nginx/1.21.5
+2023/11/19 14:09:26 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/11/19 14:09:26 [notice] 1#1: OS: Linux 5.15.133.1-microsoft-standard-WSL2
+2023/11/19 14:09:26 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/11/19 14:09:26 [notice] 1#1: start worker processes
+2023/11/19 14:09:26 [notice] 1#1: start worker process 24
+2023/11/19 14:09:26 [notice] 1#1: start worker process 25
+2023/11/19 14:09:26 [notice] 1#1: start worker process 26
+2023/11/19 14:09:26 [notice] 1#1: start worker process 27
+2023/11/19 14:09:26 [notice] 1#1: start worker process 28
+2023/11/19 14:09:26 [notice] 1#1: start worker process 29
+2023/11/19 14:09:26 [notice] 1#1: start worker process 30
+2023/11/19 14:09:26 [notice] 1#1: start worker process 31
+2023/11/19 14:09:38 [error] 24#24: *1 "/usr/share/nginx/html/api/index.html" is not found (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /api/?token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJjamMiLCJleHAiOjE3MDA0MDA2MzcsImlhdCI6MTcwMDQwMDMzNywianRpIjoiYzJmM2VkZTMtYjIxMy00ZGI4LTgyZGMtOWI1OTQ0YWQ1MTdjIiwidXNlcm5hbWUiOiJjamMifQ.x5iipaXot1X_JaIFo78A1j-bF-cFHFlIJ-noK9DDEK0 HTTP/1.1", host: "localhost"
+2023/11/19 14:09:38 [error] 24#24: *1 open() "/etc/nginx/html/404.html" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /api/?token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJjamMiLCJleHAiOjE3MDA0MDA2MzcsImlhdCI6MTcwMDQwMDMzNywianRpIjoiYzJmM2VkZTMtYjIxMy00ZGI4LTgyZGMtOWI1OTQ0YWQ1MTdjIiwidXNlcm5hbWUiOiJjamMifQ.x5iipaXot1X_JaIFo78A1j-bF-cFHFlIJ-noK9DDEK0 HTTP/1.1", host: "localhost"
+2023/11/19 14:09:43 [error] 24#24: *1 "/usr/share/nginx/html/api/index.html" is not found (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /api/?token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJjamMiLCJleHAiOjE3MDA0MDA2MzcsImlhdCI6MTcwMDQwMDMzNywianRpIjoiYzJmM2VkZTMtYjIxMy00ZGI4LTgyZGMtOWI1OTQ0YWQ1MTdjIiwidXNlcm5hbWUiOiJjamMifQ.x5iipaXot1X_JaIFo78A1j-bF-cFHFlIJ-noK9DDEK0 HTTP/1.1", host: "localhost"
+2023/11/19 14:09:43 [error] 24#24: *1 open() "/etc/nginx/html/404.html" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /api/?token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJjamMiLCJleHAiOjE3MDA0MDA2MzcsImlhdCI6MTcwMDQwMDMzNywianRpIjoiYzJmM2VkZTMtYjIxMy00ZGI4LTgyZGMtOWI1OTQ0YWQ1MTdjIiwidXNlcm5hbWUiOiJjamMifQ.x5iipaXot1X_JaIFo78A1j-bF-cFHFlIJ-noK9DDEK0 HTTP/1.1", host: "localhost"
+2023/11/19 14:09:46 [error] 24#24: *1 open() "/usr/share/nginx/html/api" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /api HTTP/1.1", host: "localhost"
+2023/11/19 14:09:46 [error] 24#24: *1 open() "/etc/nginx/html/404.html" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /api HTTP/1.1", host: "localhost"
+2023/11/19 14:09:50 [error] 24#24: *1 "/usr/share/nginx/html/api/index.html" is not found (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /api/ HTTP/1.1", host: "localhost"
+2023/11/19 14:09:50 [error] 24#24: *1 open() "/etc/nginx/html/404.html" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /api/ HTTP/1.1", host: "localhost"
+2023/11/19 14:10:10 [error] 24#24: *1 open() "/usr/share/nginx/html/token" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /token HTTP/1.1", host: "localhost"
+2023/11/19 14:10:10 [error] 24#24: *1 open() "/etc/nginx/html/404.html" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /token HTTP/1.1", host: "localhost"
+2023/11/19 14:10:41 [error] 24#24: *1 open() "/usr/share/nginx/html/api" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /api HTTP/1.1", host: "localhost"
+2023/11/19 14:10:41 [error] 24#24: *1 open() "/etc/nginx/html/404.html" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /api HTTP/1.1", host: "localhost"
+2023/11/19 14:10:44 [error] 24#24: *1 "/usr/share/nginx/html/api/index.html" is not found (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /api/ HTTP/1.1", host: "localhost"
+2023/11/19 14:10:44 [error] 24#24: *1 open() "/etc/nginx/html/404.html" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /api/ HTTP/1.1", host: "localhost"
+2023/11/19 14:11:03 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/11/19 14:11:03 [notice] 24#24: gracefully shutting down
+2023/11/19 14:11:03 [notice] 25#25: gracefully shutting down
+2023/11/19 14:11:03 [notice] 31#31: gracefully shutting down
+2023/11/19 14:11:03 [notice] 26#26: gracefully shutting down
+2023/11/19 14:11:03 [notice] 28#28: gracefully shutting down
+2023/11/19 14:11:03 [notice] 29#29: gracefully shutting down
+2023/11/19 14:11:03 [notice] 30#30: gracefully shutting down
+2023/11/19 14:11:03 [notice] 27#27: gracefully shutting down
+2023/11/19 14:11:03 [notice] 24#24: exiting
+2023/11/19 14:11:03 [notice] 31#31: exiting
+2023/11/19 14:11:03 [notice] 26#26: exiting
+2023/11/19 14:11:03 [notice] 28#28: exiting
+2023/11/19 14:11:03 [notice] 29#29: exiting
+2023/11/19 14:11:03 [notice] 30#30: exiting
+2023/11/19 14:11:03 [notice] 27#27: exiting
+2023/11/19 14:11:03 [notice] 24#24: exit
+2023/11/19 14:11:03 [notice] 31#31: exit
+2023/11/19 14:11:03 [notice] 26#26: exit
+2023/11/19 14:11:03 [notice] 28#28: exit
+2023/11/19 14:11:03 [notice] 29#29: exit
+2023/11/19 14:11:03 [notice] 30#30: exit
+2023/11/19 14:11:03 [notice] 27#27: exit
+2023/11/19 14:11:03 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2023/11/19 14:11:03 [notice] 1#1: worker process 24 exited with code 0
+2023/11/19 14:11:03 [notice] 1#1: worker process 29 exited with code 0
+2023/11/19 14:11:03 [notice] 1#1: signal 29 (SIGIO) received
+2023/11/19 14:11:03 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2023/11/19 14:11:03 [notice] 1#1: worker process 27 exited with code 0
+2023/11/19 14:11:03 [notice] 1#1: worker process 28 exited with code 0
+2023/11/19 14:11:03 [notice] 1#1: worker process 30 exited with code 0
+2023/11/19 14:11:03 [notice] 1#1: worker process 31 exited with code 0
+2023/11/19 14:11:03 [notice] 1#1: signal 29 (SIGIO) received
+2023/11/19 14:11:03 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2023/11/19 14:11:03 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2023/11/19 14:11:03 [notice] 1#1: worker process 26 exited with code 0
+2023/11/19 14:11:03 [notice] 1#1: signal 29 (SIGIO) received
+2023/11/19 14:11:13 [notice] 1#1: using the "epoll" event method
+2023/11/19 14:11:13 [notice] 1#1: nginx/1.21.5
+2023/11/19 14:11:13 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/11/19 14:11:13 [notice] 1#1: OS: Linux 5.15.133.1-microsoft-standard-WSL2
+2023/11/19 14:11:13 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/11/19 14:11:13 [notice] 1#1: start worker processes
+2023/11/19 14:11:13 [notice] 1#1: start worker process 24
+2023/11/19 14:11:13 [notice] 1#1: start worker process 25
+2023/11/19 14:11:13 [notice] 1#1: start worker process 26
+2023/11/19 14:11:13 [notice] 1#1: start worker process 27
+2023/11/19 14:11:13 [notice] 1#1: start worker process 28
+2023/11/19 14:11:13 [notice] 1#1: start worker process 29
+2023/11/19 14:11:13 [notice] 1#1: start worker process 30
+2023/11/19 14:11:13 [notice] 1#1: start worker process 31
+2023/11/19 14:11:15 [error] 24#24: *2 "/usr/share/nginx/html/api/index.html" is not found (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /api/ HTTP/1.1", host: "localhost"
+2023/11/19 14:11:15 [error] 24#24: *2 open() "/etc/nginx/html/404.html" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /api/ HTTP/1.1", host: "localhost"
+2023/11/19 14:11:16 [error] 24#24: *2 "/usr/share/nginx/html/api/index.html" is not found (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /api/ HTTP/1.1", host: "localhost"
+2023/11/19 14:11:16 [error] 24#24: *2 open() "/etc/nginx/html/404.html" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /api/ HTTP/1.1", host: "localhost"
+2023/11/19 14:11:17 [error] 24#24: *2 "/usr/share/nginx/html/api/index.html" is not found (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /api/ HTTP/1.1", host: "localhost"
+2023/11/19 14:11:17 [error] 24#24: *2 open() "/etc/nginx/html/404.html" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /api/ HTTP/1.1", host: "localhost"
+2023/11/19 14:11:17 [error] 24#24: *2 "/usr/share/nginx/html/api/index.html" is not found (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /api/ HTTP/1.1", host: "localhost"
+2023/11/19 14:11:17 [error] 24#24: *2 open() "/etc/nginx/html/404.html" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /api/ HTTP/1.1", host: "localhost"
+2023/11/19 14:11:17 [error] 24#24: *2 "/usr/share/nginx/html/api/index.html" is not found (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /api/ HTTP/1.1", host: "localhost"
+2023/11/19 14:11:17 [error] 24#24: *2 open() "/etc/nginx/html/404.html" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /api/ HTTP/1.1", host: "localhost"
+2023/11/19 14:11:30 [error] 24#24: *2 open() "/usr/share/nginx/html/api" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /api HTTP/1.1", host: "localhost"
+2023/11/19 14:11:30 [error] 24#24: *2 open() "/etc/nginx/html/404.html" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /api HTTP/1.1", host: "localhost"
+2023/11/19 14:11:57 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/11/19 14:11:57 [notice] 25#25: gracefully shutting down
+2023/11/19 14:11:57 [notice] 24#24: gracefully shutting down
+2023/11/19 14:11:57 [notice] 27#27: gracefully shutting down
+2023/11/19 14:11:57 [notice] 30#30: gracefully shutting down
+2023/11/19 14:11:57 [notice] 31#31: gracefully shutting down
+2023/11/19 14:11:57 [notice] 29#29: gracefully shutting down
+2023/11/19 14:11:57 [notice] 26#26: gracefully shutting down
+2023/11/19 14:11:57 [notice] 28#28: gracefully shutting down
+2023/11/19 14:11:57 [notice] 25#25: exiting
+2023/11/19 14:11:57 [notice] 27#27: exiting
+2023/11/19 14:11:57 [notice] 30#30: exiting
+2023/11/19 14:11:57 [notice] 31#31: exiting
+2023/11/19 14:11:57 [notice] 29#29: exiting
+2023/11/19 14:11:57 [notice] 26#26: exiting
+2023/11/19 14:11:57 [notice] 28#28: exiting
+2023/11/19 14:11:57 [notice] 25#25: exit
+2023/11/19 14:11:57 [notice] 27#27: exit
+2023/11/19 14:11:57 [notice] 30#30: exit
+2023/11/19 14:11:57 [notice] 31#31: exit
+2023/11/19 14:11:57 [notice] 29#29: exit
+2023/11/19 14:11:57 [notice] 26#26: exit
+2023/11/19 14:11:57 [notice] 28#28: exit
+2023/11/19 14:11:57 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2023/11/19 14:11:57 [notice] 1#1: worker process 27 exited with code 0
+2023/11/19 14:11:57 [notice] 1#1: signal 29 (SIGIO) received
+2023/11/19 14:11:57 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2023/11/19 14:11:57 [notice] 1#1: worker process 29 exited with code 0
+2023/11/19 14:11:57 [notice] 1#1: signal 29 (SIGIO) received
+2023/11/19 14:11:57 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2023/11/19 14:11:57 [notice] 1#1: worker process 25 exited with code 0
+2023/11/19 14:11:57 [notice] 1#1: worker process 26 exited with code 0
+2023/11/19 14:11:57 [notice] 1#1: worker process 28 exited with code 0
+2023/11/19 14:11:57 [notice] 1#1: worker process 30 exited with code 0
+2023/11/19 14:11:57 [notice] 1#1: worker process 31 exited with code 0
+2023/11/19 14:11:57 [notice] 1#1: signal 29 (SIGIO) received
+2023/11/19 14:11:57 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2023/11/19 14:12:08 [notice] 1#1: using the "epoll" event method
+2023/11/19 14:12:08 [notice] 1#1: nginx/1.21.5
+2023/11/19 14:12:08 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/11/19 14:12:08 [notice] 1#1: OS: Linux 5.15.133.1-microsoft-standard-WSL2
+2023/11/19 14:12:08 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/11/19 14:12:08 [notice] 1#1: start worker processes
+2023/11/19 14:12:08 [notice] 1#1: start worker process 24
+2023/11/19 14:12:08 [notice] 1#1: start worker process 25
+2023/11/19 14:12:08 [notice] 1#1: start worker process 26
+2023/11/19 14:12:08 [notice] 1#1: start worker process 27
+2023/11/19 14:12:08 [notice] 1#1: start worker process 28
+2023/11/19 14:12:08 [notice] 1#1: start worker process 29
+2023/11/19 14:12:08 [notice] 1#1: start worker process 30
+2023/11/19 14:12:08 [notice] 1#1: start worker process 31
+2023/11/19 14:12:15 [error] 24#24: *1 open() "/usr/share/nginx/html/api" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /api HTTP/1.1", host: "localhost"
+2023/11/19 14:12:20 [error] 24#24: *1 open() "/usr/share/nginx/html/api" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /api HTTP/1.1", host: "localhost"
+2023/11/19 14:13:37 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/11/19 14:13:37 [notice] 24#24: gracefully shutting down
+2023/11/19 14:13:37 [notice] 25#25: gracefully shutting down
+2023/11/19 14:13:37 [notice] 26#26: gracefully shutting down
+2023/11/19 14:13:37 [notice] 29#29: gracefully shutting down
+2023/11/19 14:13:37 [notice] 30#30: gracefully shutting down
+2023/11/19 14:13:37 [notice] 27#27: gracefully shutting down
+2023/11/19 14:13:37 [notice] 31#31: gracefully shutting down
+2023/11/19 14:13:37 [notice] 28#28: gracefully shutting down
+2023/11/19 14:13:37 [notice] 24#24: exiting
+2023/11/19 14:13:37 [notice] 25#25: exiting
+2023/11/19 14:13:37 [notice] 26#26: exiting
+2023/11/19 14:13:37 [notice] 29#29: exiting
+2023/11/19 14:13:37 [notice] 30#30: exiting
+2023/11/19 14:13:37 [notice] 27#27: exiting
+2023/11/19 14:13:37 [notice] 31#31: exiting
+2023/11/19 14:13:37 [notice] 28#28: exiting
+2023/11/19 14:13:37 [notice] 24#24: exit
+2023/11/19 14:13:37 [notice] 25#25: exit
+2023/11/19 14:13:37 [notice] 26#26: exit
+2023/11/19 14:13:37 [notice] 29#29: exit
+2023/11/19 14:13:37 [notice] 30#30: exit
+2023/11/19 14:13:37 [notice] 27#27: exit
+2023/11/19 14:13:37 [notice] 31#31: exit
+2023/11/19 14:13:37 [notice] 28#28: exit
+2023/11/19 14:13:37 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2023/11/19 14:13:37 [notice] 1#1: worker process 24 exited with code 0
+2023/11/19 14:13:37 [notice] 1#1: worker process 27 exited with code 0
+2023/11/19 14:13:37 [notice] 1#1: worker process 29 exited with code 0
+2023/11/19 14:13:37 [notice] 1#1: worker process 30 exited with code 0
+2023/11/19 14:13:37 [notice] 1#1: worker process 31 exited with code 0
+2023/11/19 14:13:37 [notice] 1#1: signal 29 (SIGIO) received
+2023/11/19 14:13:37 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2023/11/19 14:13:37 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2023/11/19 14:13:37 [notice] 1#1: worker process 26 exited with code 0
+2023/11/19 14:13:37 [notice] 1#1: signal 29 (SIGIO) received
+2023/11/19 14:13:37 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2023/11/19 14:13:37 [notice] 1#1: worker process 25 exited with code 0
+2023/11/19 14:13:37 [notice] 1#1: signal 29 (SIGIO) received
+2023/11/19 14:13:37 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2023/11/19 14:13:37 [notice] 1#1: worker process 28 exited with code 0
+2023/11/19 14:13:37 [notice] 1#1: exit
+2023/11/19 14:13:38 [notice] 1#1: using the "epoll" event method
+2023/11/19 14:13:38 [notice] 1#1: nginx/1.21.5
+2023/11/19 14:13:38 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/11/19 14:13:38 [notice] 1#1: OS: Linux 5.15.133.1-microsoft-standard-WSL2
+2023/11/19 14:13:38 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/11/19 14:13:38 [notice] 1#1: start worker processes
+2023/11/19 14:13:38 [notice] 1#1: start worker process 24
+2023/11/19 14:13:38 [notice] 1#1: start worker process 25
+2023/11/19 14:13:38 [notice] 1#1: start worker process 26
+2023/11/19 14:13:38 [notice] 1#1: start worker process 27
+2023/11/19 14:13:38 [notice] 1#1: start worker process 28
+2023/11/19 14:13:38 [notice] 1#1: start worker process 29
+2023/11/19 14:13:38 [notice] 1#1: start worker process 30
+2023/11/19 14:13:38 [notice] 1#1: start worker process 31
+2023/11/19 14:13:57 [error] 24#24: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /api/ HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:8080/verify?", host: "localhost"
+2023/11/19 14:13:57 [warn] 24#24: *1 upstream server temporarily disabled while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /api/ HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:8080/verify?", host: "localhost"
+2023/11/19 14:13:57 [error] 24#24: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /api/ HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:8080/verify?", host: "localhost"
+2023/11/19 14:13:57 [warn] 24#24: *1 upstream server temporarily disabled while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /api/ HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:8080/verify?", host: "localhost"
+2023/11/19 14:13:57 [error] 24#24: *1 open() "/etc/nginx/html/50x.html" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /api/ HTTP/1.1", subrequest: "/50x.html", upstream: "http://127.0.0.1:8080/verify?", host: "localhost"
+2023/11/19 14:13:57 [error] 24#24: *1 auth request unexpected status: 404, client: 172.17.0.1, server: localhost, request: "GET /api/ HTTP/1.1", host: "localhost"
+2023/11/19 14:13:57 [error] 24#24: *1 open() "/etc/nginx/html/50x.html" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /api/ HTTP/1.1", host: "localhost"
+2023/11/19 14:14:05 [error] 24#24: *2 no live upstreams while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /api// HTTP/1.1", subrequest: "/auth", upstream: "http://localhost/verify?", host: "localhost"
+2023/11/19 14:14:05 [error] 24#24: *2 open() "/etc/nginx/html/50x.html" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /api// HTTP/1.1", subrequest: "/50x.html", upstream: "http://localhost/verify?", host: "localhost"
+2023/11/19 14:14:05 [error] 24#24: *2 auth request unexpected status: 404, client: 172.17.0.1, server: localhost, request: "GET /api// HTTP/1.1", host: "localhost"
+2023/11/19 14:14:05 [error] 24#24: *2 open() "/etc/nginx/html/50x.html" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /api// HTTP/1.1", host: "localhost"
+2023/11/19 14:14:08 [error] 24#24: *5 connect() failed (111: Connection refused) while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /api/ HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:8080/verify?", host: "localhost"
+2023/11/19 14:14:08 [warn] 24#24: *5 upstream server temporarily disabled while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /api/ HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:8080/verify?", host: "localhost"
+2023/11/19 14:14:08 [error] 24#24: *5 connect() failed (111: Connection refused) while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /api/ HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:8080/verify?", host: "localhost"
+2023/11/19 14:14:08 [warn] 24#24: *5 upstream server temporarily disabled while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /api/ HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:8080/verify?", host: "localhost"
+2023/11/19 14:14:08 [error] 24#24: *5 open() "/etc/nginx/html/50x.html" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /api/ HTTP/1.1", subrequest: "/50x.html", upstream: "http://127.0.0.1:8080/verify?", host: "localhost"
+2023/11/19 14:14:08 [error] 24#24: *5 auth request unexpected status: 404, client: 172.17.0.1, server: localhost, request: "GET /api/ HTTP/1.1", host: "localhost"
+2023/11/19 14:14:08 [error] 24#24: *5 open() "/etc/nginx/html/50x.html" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /api/ HTTP/1.1", host: "localhost"
+2023/11/19 14:23:02 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/11/19 14:23:02 [notice] 24#24: gracefully shutting down
+2023/11/19 14:23:02 [notice] 24#24: exiting
+2023/11/19 14:23:02 [notice] 25#25: gracefully shutting down
+2023/11/19 14:23:02 [notice] 27#27: gracefully shutting down
+2023/11/19 14:23:02 [notice] 26#26: gracefully shutting down
+2023/11/19 14:23:02 [notice] 30#30: gracefully shutting down
+2023/11/19 14:23:02 [notice] 28#28: gracefully shutting down
+2023/11/19 14:23:02 [notice] 31#31: gracefully shutting down
+2023/11/19 14:23:02 [notice] 29#29: gracefully shutting down
+2023/11/19 14:23:02 [notice] 24#24: exit
+2023/11/19 14:23:02 [notice] 25#25: exiting
+2023/11/19 14:23:02 [notice] 27#27: exiting
+2023/11/19 14:23:02 [notice] 26#26: exiting
+2023/11/19 14:23:02 [notice] 30#30: exiting
+2023/11/19 14:23:02 [notice] 26#26: exit
+2023/11/19 14:23:02 [notice] 28#28: exiting
+2023/11/19 14:23:02 [notice] 31#31: exiting
+2023/11/19 14:23:02 [notice] 29#29: exiting
+2023/11/19 14:23:02 [notice] 25#25: exit
+2023/11/19 14:23:02 [notice] 27#27: exit
+2023/11/19 14:23:02 [notice] 30#30: exit
+2023/11/19 14:23:02 [notice] 28#28: exit
+2023/11/19 14:23:02 [notice] 31#31: exit
+2023/11/19 14:23:02 [notice] 29#29: exit
+2023/11/19 14:23:03 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2023/11/19 14:23:03 [notice] 1#1: worker process 24 exited with code 0
+2023/11/19 14:23:03 [notice] 1#1: worker process 28 exited with code 0
+2023/11/19 14:23:03 [notice] 1#1: signal 29 (SIGIO) received
+2023/11/19 14:23:03 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2023/11/19 14:23:03 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2023/11/19 14:23:03 [notice] 1#1: worker process 31 exited with code 0
+2023/11/19 14:23:03 [notice] 1#1: signal 29 (SIGIO) received
+2023/11/19 14:23:03 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2023/11/19 14:23:03 [notice] 1#1: worker process 27 exited with code 0
+2023/11/19 14:23:03 [notice] 1#1: signal 29 (SIGIO) received
+2023/11/19 14:23:03 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2023/11/19 14:23:03 [notice] 1#1: worker process 25 exited with code 0
+2023/11/19 14:23:03 [notice] 1#1: worker process 26 exited with code 0
+2023/11/19 14:23:03 [notice] 1#1: worker process 29 exited with code 0
+2023/11/19 14:23:03 [notice] 1#1: worker process 30 exited with code 0
+2023/11/19 14:23:03 [notice] 1#1: exit
+2023/11/19 14:23:14 [notice] 1#1: using the "epoll" event method
+2023/11/19 14:23:14 [notice] 1#1: nginx/1.21.5
+2023/11/19 14:23:14 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/11/19 14:23:14 [notice] 1#1: OS: Linux 5.15.133.1-microsoft-standard-WSL2
+2023/11/19 14:23:14 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/11/19 14:23:14 [notice] 1#1: start worker processes
+2023/11/19 14:23:14 [notice] 1#1: start worker process 24
+2023/11/19 14:23:14 [notice] 1#1: start worker process 25
+2023/11/19 14:23:14 [notice] 1#1: start worker process 26
+2023/11/19 14:23:14 [notice] 1#1: start worker process 27
+2023/11/19 14:23:14 [notice] 1#1: start worker process 28
+2023/11/19 14:23:14 [notice] 1#1: start worker process 29
+2023/11/19 14:23:14 [notice] 1#1: start worker process 30
+2023/11/19 14:23:14 [notice] 1#1: start worker process 31
+2023/11/19 14:23:22 [error] 24#24: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /api/ HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:8080/verify?", host: "localhost"
+2023/11/19 14:23:22 [warn] 24#24: *1 upstream server temporarily disabled while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /api/ HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:8080/verify?", host: "localhost"
+2023/11/19 14:23:22 [error] 24#24: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /api/ HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:8080/verify?", host: "localhost"
+2023/11/19 14:23:22 [warn] 24#24: *1 upstream server temporarily disabled while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /api/ HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:8080/verify?", host: "localhost"
+2023/11/19 14:23:22 [error] 24#24: *1 open() "/etc/nginx/html/50x.html" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /api/ HTTP/1.1", subrequest: "/50x.html", upstream: "http://127.0.0.1:8080/verify?", host: "localhost"
+2023/11/19 14:23:22 [error] 24#24: *1 auth request unexpected status: 404, client: 172.17.0.1, server: localhost, request: "GET /api/ HTTP/1.1", host: "localhost"
+2023/11/19 14:23:22 [error] 24#24: *1 open() "/etc/nginx/html/50x.html" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /api/ HTTP/1.1", host: "localhost"
+2023/11/19 14:24:12 [error] 24#24: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /api/?token=success HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:8080/verify?token=success", host: "localhost"
+2023/11/19 14:24:12 [warn] 24#24: *2 upstream server temporarily disabled while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /api/?token=success HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:8080/verify?token=success", host: "localhost"
+2023/11/19 14:24:12 [error] 24#24: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /api/?token=success HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:8080/verify?token=success", host: "localhost"
+2023/11/19 14:24:12 [warn] 24#24: *2 upstream server temporarily disabled while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /api/?token=success HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:8080/verify?token=success", host: "localhost"
+2023/11/19 14:24:12 [error] 24#24: *2 open() "/etc/nginx/html/50x.html" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /api/?token=success HTTP/1.1", subrequest: "/50x.html", upstream: "http://127.0.0.1:8080/verify?token=success", host: "localhost"
+2023/11/19 14:24:12 [error] 24#24: *2 auth request unexpected status: 404, client: 172.17.0.1, server: localhost, request: "GET /api/?token=success HTTP/1.1", host: "localhost"
+2023/11/19 14:24:12 [error] 24#24: *2 open() "/etc/nginx/html/50x.html" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /api/?token=success HTTP/1.1", host: "localhost"
+2023/11/19 14:26:33 [error] 24#24: *8 connect() failed (111: Connection refused) while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /api/ HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:8080/verify?", host: "localhost"
+2023/11/19 14:26:33 [warn] 24#24: *8 upstream server temporarily disabled while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /api/ HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:8080/verify?", host: "localhost"
+2023/11/19 14:26:33 [error] 24#24: *8 connect() failed (111: Connection refused) while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /api/ HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:8080/verify?", host: "localhost"
+2023/11/19 14:26:33 [warn] 24#24: *8 upstream server temporarily disabled while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /api/ HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:8080/verify?", host: "localhost"
+2023/11/19 14:26:33 [error] 24#24: *8 open() "/etc/nginx/html/50x.html" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /api/ HTTP/1.1", subrequest: "/50x.html", upstream: "http://127.0.0.1:8080/verify?", host: "localhost"
+2023/11/19 14:26:33 [error] 24#24: *8 auth request unexpected status: 404, client: 172.17.0.1, server: localhost, request: "GET /api/ HTTP/1.1", host: "localhost"
+2023/11/19 14:26:33 [error] 24#24: *8 open() "/etc/nginx/html/50x.html" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /api/ HTTP/1.1", host: "localhost"
+2023/11/19 14:26:42 [error] 24#24: *11 no live upstreams while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /api/?token=22 HTTP/1.1", subrequest: "/auth", upstream: "http://localhost/verify?token=22", host: "localhost"
+2023/11/19 14:26:42 [error] 24#24: *11 open() "/etc/nginx/html/50x.html" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /api/?token=22 HTTP/1.1", subrequest: "/50x.html", upstream: "http://localhost/verify?token=22", host: "localhost"
+2023/11/19 14:26:42 [error] 24#24: *11 auth request unexpected status: 404, client: 172.17.0.1, server: localhost, request: "GET /api/?token=22 HTTP/1.1", host: "localhost"
+2023/11/19 14:26:42 [error] 24#24: *11 open() "/etc/nginx/html/50x.html" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /api/?token=22 HTTP/1.1", host: "localhost"
+2023/11/19 14:26:54 [error] 24#24: *12 connect() failed (111: Connection refused) while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /api/?token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJjamMiLCJleHAiOjE3MDA0MDQzMDcsImlhdCI6MTcwMDQwNDAwNywianRpIjoiODM0NGViNzQtMzUzYS00MzRkLTk3NzgtNzZlZjYyYWY2MzkzIiwidXNlcm5hbWUiOiJjamMifQ.rCFHfadrWt4-Uhvb1GPmFEdigS9vKEB1JLb3atvqTWs HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:8080/verify?token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJjamMiLCJleHAiOjE3MDA0MDQzMDcsImlhdCI6MTcwMDQwNDAwNywianRpIjoiODM0NGViNzQtMzUzYS00MzRkLTk3NzgtNzZlZjYyYWY2MzkzIiwidXNlcm5hbWUiOiJjamMifQ.rCFHfadrWt4-Uhvb1GPmFEdigS9vKEB1JLb3atvqTWs", host: "localhost"
+2023/11/19 14:26:54 [warn] 24#24: *12 upstream server temporarily disabled while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /api/?token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJjamMiLCJleHAiOjE3MDA0MDQzMDcsImlhdCI6MTcwMDQwNDAwNywianRpIjoiODM0NGViNzQtMzUzYS00MzRkLTk3NzgtNzZlZjYyYWY2MzkzIiwidXNlcm5hbWUiOiJjamMifQ.rCFHfadrWt4-Uhvb1GPmFEdigS9vKEB1JLb3atvqTWs HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:8080/verify?token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJjamMiLCJleHAiOjE3MDA0MDQzMDcsImlhdCI6MTcwMDQwNDAwNywianRpIjoiODM0NGViNzQtMzUzYS00MzRkLTk3NzgtNzZlZjYyYWY2MzkzIiwidXNlcm5hbWUiOiJjamMifQ.rCFHfadrWt4-Uhvb1GPmFEdigS9vKEB1JLb3atvqTWs", host: "localhost"
+2023/11/19 14:26:54 [error] 24#24: *12 connect() failed (111: Connection refused) while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /api/?token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJjamMiLCJleHAiOjE3MDA0MDQzMDcsImlhdCI6MTcwMDQwNDAwNywianRpIjoiODM0NGViNzQtMzUzYS00MzRkLTk3NzgtNzZlZjYyYWY2MzkzIiwidXNlcm5hbWUiOiJjamMifQ.rCFHfadrWt4-Uhvb1GPmFEdigS9vKEB1JLb3atvqTWs HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:8080/verify?token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJjamMiLCJleHAiOjE3MDA0MDQzMDcsImlhdCI6MTcwMDQwNDAwNywianRpIjoiODM0NGViNzQtMzUzYS00MzRkLTk3NzgtNzZlZjYyYWY2MzkzIiwidXNlcm5hbWUiOiJjamMifQ.rCFHfadrWt4-Uhvb1GPmFEdigS9vKEB1JLb3atvqTWs", host: "localhost"
+2023/11/19 14:26:54 [warn] 24#24: *12 upstream server temporarily disabled while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /api/?token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJjamMiLCJleHAiOjE3MDA0MDQzMDcsImlhdCI6MTcwMDQwNDAwNywianRpIjoiODM0NGViNzQtMzUzYS00MzRkLTk3NzgtNzZlZjYyYWY2MzkzIiwidXNlcm5hbWUiOiJjamMifQ.rCFHfadrWt4-Uhvb1GPmFEdigS9vKEB1JLb3atvqTWs HTTP/1.1", subrequest: "/auth", upstream: "http://127.0.0.1:8080/verify?token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJjamMiLCJleHAiOjE3MDA0MDQzMDcsImlhdCI6MTcwMDQwNDAwNywianRpIjoiODM0NGViNzQtMzUzYS00MzRkLTk3NzgtNzZlZjYyYWY2MzkzIiwidXNlcm5hbWUiOiJjamMifQ.rCFHfadrWt4-Uhvb1GPmFEdigS9vKEB1JLb3atvqTWs", host: "localhost"
+2023/11/19 14:26:54 [error] 24#24: *12 open() "/etc/nginx/html/50x.html" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /api/?token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJjamMiLCJleHAiOjE3MDA0MDQzMDcsImlhdCI6MTcwMDQwNDAwNywianRpIjoiODM0NGViNzQtMzUzYS00MzRkLTk3NzgtNzZlZjYyYWY2MzkzIiwidXNlcm5hbWUiOiJjamMifQ.rCFHfadrWt4-Uhvb1GPmFEdigS9vKEB1JLb3atvqTWs HTTP/1.1", subrequest: "/50x.html", upstream: "http://127.0.0.1:8080/verify?token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJjamMiLCJleHAiOjE3MDA0MDQzMDcsImlhdCI6MTcwMDQwNDAwNywianRpIjoiODM0NGViNzQtMzUzYS00MzRkLTk3NzgtNzZlZjYyYWY2MzkzIiwidXNlcm5hbWUiOiJjamMifQ.rCFHfadrWt4-Uhvb1GPmFEdigS9vKEB1JLb3atvqTWs", host: "localhost"
+2023/11/19 14:26:54 [error] 24#24: *12 auth request unexpected status: 404, client: 172.17.0.1, server: localhost, request: "GET /api/?token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJjamMiLCJleHAiOjE3MDA0MDQzMDcsImlhdCI6MTcwMDQwNDAwNywianRpIjoiODM0NGViNzQtMzUzYS00MzRkLTk3NzgtNzZlZjYyYWY2MzkzIiwidXNlcm5hbWUiOiJjamMifQ.rCFHfadrWt4-Uhvb1GPmFEdigS9vKEB1JLb3atvqTWs HTTP/1.1", host: "localhost"
+2023/11/19 14:26:54 [error] 24#24: *12 open() "/etc/nginx/html/50x.html" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /api/?token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJjamMiLCJleHAiOjE3MDA0MDQzMDcsImlhdCI6MTcwMDQwNDAwNywianRpIjoiODM0NGViNzQtMzUzYS00MzRkLTk3NzgtNzZlZjYyYWY2MzkzIiwidXNlcm5hbWUiOiJjamMifQ.rCFHfadrWt4-Uhvb1GPmFEdigS9vKEB1JLb3atvqTWs HTTP/1.1", host: "localhost"
+2023/11/19 14:33:56 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/11/19 14:33:56 [notice] 24#24: gracefully shutting down
+2023/11/19 14:33:56 [notice] 24#24: exiting
+2023/11/19 14:33:56 [notice] 25#25: gracefully shutting down
+2023/11/19 14:33:56 [notice] 26#26: gracefully shutting down
+2023/11/19 14:33:56 [notice] 28#28: gracefully shutting down
+2023/11/19 14:33:56 [notice] 27#27: gracefully shutting down
+2023/11/19 14:33:56 [notice] 29#29: gracefully shutting down
+2023/11/19 14:33:56 [notice] 30#30: gracefully shutting down
+2023/11/19 14:33:56 [notice] 31#31: gracefully shutting down
+2023/11/19 14:33:56 [notice] 24#24: exit
+2023/11/19 14:33:56 [notice] 25#25: exiting
+2023/11/19 14:33:56 [notice] 26#26: exiting
+2023/11/19 14:33:56 [notice] 28#28: exiting
+2023/11/19 14:33:56 [notice] 27#27: exiting
+2023/11/19 14:33:56 [notice] 29#29: exiting
+2023/11/19 14:33:56 [notice] 30#30: exiting
+2023/11/19 14:33:56 [notice] 31#31: exiting
+2023/11/19 14:33:56 [notice] 25#25: exit
+2023/11/19 14:33:56 [notice] 26#26: exit
+2023/11/19 14:33:56 [notice] 28#28: exit
+2023/11/19 14:33:56 [notice] 27#27: exit
+2023/11/19 14:33:56 [notice] 29#29: exit
+2023/11/19 14:33:56 [notice] 30#30: exit
+2023/11/19 14:33:56 [notice] 31#31: exit
+2023/11/19 14:33:56 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2023/11/19 14:33:56 [notice] 1#1: worker process 27 exited with code 0
+2023/11/19 14:33:56 [notice] 1#1: worker process 31 exited with code 0
+2023/11/19 14:33:56 [notice] 1#1: signal 29 (SIGIO) received
+2023/11/19 14:33:56 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2023/11/19 14:33:56 [notice] 1#1: worker process 25 exited with code 0
+2023/11/19 14:33:56 [notice] 1#1: signal 29 (SIGIO) received
+2023/11/19 14:33:56 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2023/11/19 14:33:56 [notice] 1#1: worker process 26 exited with code 0
+2023/11/19 14:33:56 [notice] 1#1: signal 29 (SIGIO) received
+2023/11/19 14:33:56 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2023/11/19 14:33:56 [notice] 1#1: worker process 24 exited with code 0
+2023/11/19 14:33:56 [notice] 1#1: worker process 28 exited with code 0
+2023/11/19 14:33:56 [notice] 1#1: worker process 29 exited with code 0
+2023/11/19 14:33:56 [notice] 1#1: worker process 30 exited with code 0
+2023/11/19 14:33:56 [notice] 1#1: exit
+2023/11/19 14:33:57 [notice] 1#1: using the "epoll" event method
+2023/11/19 14:33:57 [notice] 1#1: nginx/1.21.5
+2023/11/19 14:33:57 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/11/19 14:33:57 [notice] 1#1: OS: Linux 5.15.133.1-microsoft-standard-WSL2
+2023/11/19 14:33:57 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/11/19 14:33:57 [notice] 1#1: start worker processes
+2023/11/19 14:33:57 [notice] 1#1: start worker process 24
+2023/11/19 14:33:57 [notice] 1#1: start worker process 25
+2023/11/19 14:33:57 [notice] 1#1: start worker process 26
+2023/11/19 14:33:57 [notice] 1#1: start worker process 27
+2023/11/19 14:33:57 [notice] 1#1: start worker process 28
+2023/11/19 14:33:57 [notice] 1#1: start worker process 29
+2023/11/19 14:33:57 [notice] 1#1: start worker process 30
+2023/11/19 14:33:57 [notice] 1#1: start worker process 31
+2023/11/19 14:34:18 [error] 24#24: *3 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 172.17.0.1, server: 169.254.207.51, request: "GET /favicon.ico HTTP/1.1", host: "169.254.207.51", referrer: "http://169.254.207.51/api/?token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJjamMiLCJleHAiOjE3MDA0MDQzMDcsImlhdCI6MTcwMDQwNDAwNywianRpIjoiODM0NGViNzQtMzUzYS00MzRkLTk3NzgtNzZlZjYyYWY2MzkzIiwidXNlcm5hbWUiOiJjamMifQ.rCFHfadrWt4-Uhvb1GPmFEdigS9vKEB1JLb3atvqTWs"
+2023/11/19 14:34:18 [error] 24#24: *3 open() "/etc/nginx/html/404.html" failed (2: No such file or directory), client: 172.17.0.1, server: 169.254.207.51, request: "GET /favicon.ico HTTP/1.1", host: "169.254.207.51", referrer: "http://169.254.207.51/api/?token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJjamMiLCJleHAiOjE3MDA0MDQzMDcsImlhdCI6MTcwMDQwNDAwNywianRpIjoiODM0NGViNzQtMzUzYS00MzRkLTk3NzgtNzZlZjYyYWY2MzkzIiwidXNlcm5hbWUiOiJjamMifQ.rCFHfadrWt4-Uhvb1GPmFEdigS9vKEB1JLb3atvqTWs"
+2023/11/19 14:38:09 [error] 24#24: *10 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.17.0.1, server: 169.254.207.51, request: "GET /api/?token=123 HTTP/1.1", subrequest: "/auth", upstream: "http://169.254.207.51:8080/verify?token=123", host: "localhost"
+2023/11/19 14:38:09 [error] 24#24: *10 open() "/etc/nginx/html/50x.html" failed (2: No such file or directory), client: 172.17.0.1, server: 169.254.207.51, request: "GET /api/?token=123 HTTP/1.1", subrequest: "/50x.html", upstream: "http://169.254.207.51:8080/verify?token=123", host: "localhost"
+2023/11/19 14:38:09 [error] 24#24: *10 auth request unexpected status: 404, client: 172.17.0.1, server: 169.254.207.51, request: "GET /api/?token=123 HTTP/1.1", host: "localhost"
+2023/11/19 14:38:09 [error] 24#24: *10 open() "/etc/nginx/html/50x.html" failed (2: No such file or directory), client: 172.17.0.1, server: 169.254.207.51, request: "GET /api/?token=123 HTTP/1.1", host: "localhost"
+2023/11/19 17:08:07 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/11/19 17:08:07 [notice] 26#26: gracefully shutting down
+2023/11/19 17:08:07 [notice] 31#31: gracefully shutting down
+2023/11/19 17:08:07 [notice] 27#27: gracefully shutting down
+2023/11/19 17:08:07 [notice] 28#28: gracefully shutting down
+2023/11/19 17:08:07 [notice] 25#25: gracefully shutting down
+2023/11/19 17:08:07 [notice] 30#30: gracefully shutting down
+2023/11/19 17:08:07 [notice] 29#29: gracefully shutting down
+2023/11/19 17:08:07 [notice] 24#24: gracefully shutting down
+2023/11/19 17:08:07 [notice] 26#26: exiting
+2023/11/19 17:08:07 [notice] 31#31: exiting
+2023/11/19 17:08:07 [notice] 27#27: exiting
+2023/11/19 17:08:07 [notice] 28#28: exiting
+2023/11/19 17:08:07 [notice] 25#25: exiting
+2023/11/19 17:08:07 [notice] 30#30: exiting
+2023/11/19 17:08:07 [notice] 29#29: exiting
+2023/11/19 17:08:07 [notice] 24#24: exiting
+2023/11/19 17:08:07 [notice] 25#25: exit
+2023/11/19 17:08:07 [notice] 27#27: exit
+2023/11/19 17:08:07 [notice] 31#31: exit
+2023/11/19 17:08:07 [notice] 28#28: exit
+2023/11/19 17:08:07 [notice] 26#26: exit
+2023/11/19 17:08:07 [notice] 30#30: exit
+2023/11/19 17:08:07 [notice] 29#29: exit
+2023/11/19 17:08:07 [notice] 24#24: exit
+2023/11/19 17:08:07 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2023/11/19 17:08:07 [notice] 1#1: worker process 24 exited with code 0
+2023/11/19 17:08:07 [notice] 1#1: worker process 26 exited with code 0
+2023/11/19 17:08:07 [notice] 1#1: signal 29 (SIGIO) received
+2023/11/19 17:08:07 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2023/11/19 17:08:07 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2023/11/19 17:08:07 [notice] 1#1: worker process 27 exited with code 0
+2023/11/19 17:08:07 [notice] 1#1: signal 29 (SIGIO) received
+2023/11/19 17:08:07 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2023/11/19 17:08:07 [notice] 1#1: worker process 29 exited with code 0
+2023/11/19 17:08:07 [notice] 1#1: worker process 30 exited with code 0
+2023/11/19 17:08:07 [notice] 1#1: signal 29 (SIGIO) received
+2023/11/19 17:08:07 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2023/11/19 17:08:07 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2023/11/19 17:08:07 [notice] 1#1: worker process 25 exited with code 0
+2023/11/19 17:08:07 [notice] 1#1: worker process 28 exited with code 0
+2023/11/19 17:08:07 [notice] 1#1: worker process 31 exited with code 0
+2023/11/19 17:08:07 [notice] 1#1: exit

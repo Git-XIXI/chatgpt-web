@@ -17,6 +17,7 @@
 
     <modules>
         <module>chatgpt-api</module>
+        <module>dev-ops</module>
     </modules>
 
     <properties>
