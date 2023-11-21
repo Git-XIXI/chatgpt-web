@@ -1,5 +1,6 @@
 package com.xixi.chatgptapi.service;
 
+import com.xixi.chatgptapi.domain.security.service.JwtUtil;
 import io.jsonwebtoken.SignatureAlgorithm;
 import org.junit.jupiter.api.Test;
 
