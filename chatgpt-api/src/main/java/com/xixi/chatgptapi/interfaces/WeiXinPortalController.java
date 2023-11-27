@@ -18,9 +18,7 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Map;
+import java.util.*;
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ExecutionException;
@@ -135,6 +133,7 @@ public class WeiXinPortalController {
     }
 
     public void doChatGLMTask(String content) {
+        Set set = new HashSet();
         chatGPTMap.put(content, "NULL");
         taskExecutor.execute(() -> {
             ChatCompletionRequest request = new ChatCompletionRequest();
