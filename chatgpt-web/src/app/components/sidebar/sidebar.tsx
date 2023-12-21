@@ -10,8 +10,6 @@ import MaxIcon from "../../icons/max.svg";
 import MinIcon from "../../icons/min.svg";
 import ExitIcon from "../../icons/exit.svg";
 import {IconButton} from "../button/button"
-import {create} from "zustand";
-import {persist} from "zustand/middleware";
 import {useAppConfig} from "@/app/store/config";
 
 export function SideBar() {
@@ -21,7 +19,6 @@ export function SideBar() {
 
     return (
         <div className={styles.sidebar}>
-
             <div className={styles["action-button"]}>
                 <IconButton icon={<ExitIcon/>} backgroundColor={"#ff4e4e"} onClick={()=>{
                     alert("尚未实现");
