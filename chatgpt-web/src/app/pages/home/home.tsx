@@ -11,6 +11,7 @@ import {
 import dynamic from "next/dynamic";
 import {Path} from "@/app/constants";
 import {useAppConfig} from "@/app/store/config";
+import {DialogMessage} from "@/app/components/dialog/dialog-message";
 
 const Chat = dynamic(async () => (await import("@/app/pages/chat/chat")).Chat);
 const Role = dynamic(async () => (await import("@/app/pages/role/role")).Role);
@@ -26,7 +27,9 @@ function Screen() {
             <div className={styles["window-content"]}>
                 <Routes>
                     <Route path={Path.Home} element={<Chat/>}/>
-                    <Route path={Path.Chat} element={<Chat/>}/>
+                    <Route path={Path.Chat} element={<Chat/>}>
+                        <Route path=":id" element={<DialogMessage/>}/>
+                    </Route>
                     <Route path={Path.Role} element={<Role/>}/>
                 </Routes>
             </div>

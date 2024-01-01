@@ -1,4 +1,4 @@
-export interface DialogType{
+export interface DialogType {
     // 头像
     avatar: string;
     // 对话ID
@@ -13,4 +13,24 @@ export interface DialogType{
     title: string;
     // 消息数
     count: number;
+}
+
+export interface Message {
+    avatar: string;
+    message: string;
+    message_type: MessageType;
+    time: number;
+    // 方向 发送者，接收者
+    direction?: MessageDirection;
+}
+
+export enum MessageType {
+    Link = "link",
+    Pic = "pic",
+    Text = "text",
+}
+
+export enum MessageDirection{
+    Send = 0,
+    Receive = 1,
 }
