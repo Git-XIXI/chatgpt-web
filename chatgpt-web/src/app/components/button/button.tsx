@@ -1,5 +1,13 @@
-import styles from "./button.module.scss"
+import styles from "./button.module.scss";
 
+/**
+ * 定义通用按钮函数 IconButton
+ * @param props.onClick 按钮事件(可选)
+ * @param props.icon 图标(可选)
+ * @param props.className CSS 样式
+ * @param props.title 图标名称
+ * @param props.text 图标说明
+ * */
 export function IconButton(props: {
     onClick?: () => void;
     icon?: JSX.Element;
@@ -20,5 +28,4 @@ export function IconButton(props: {
             {props.text && <div className={styles["icon-button-text"]}>{props.text}</div>}
         </button>
     );
-
 }

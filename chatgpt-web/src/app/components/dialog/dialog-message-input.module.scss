@@ -1,16 +1,26 @@
-.messageWrapper{
-  display: flex;
-  overflow: hidden;
-  align-items: flex-start;
-  margin-bottom: 24px;
+.wrapper{
+  border-top: 1px solid #f5f5f5;
+  padding: 12px;
+  position: relative;
 }
-.message{
-  flex: 1;
-  margin: 0;
+
+.textarea {
+  margin-top: 16px;
+  resize: none !important;
+  outline: none;
+  height: 200px !important;
+  overflow: auto;
+  border: 1px solid var(--primary) !important;
+  &:focus{
+    border: 1px solid var(--primary) !important;
+    outline: none !important;
+    box-shadow: none !important;
+  }
 }
-.send{
-  justify-content: flex-end;
-}
-.receive{
-  justify-content: flex-start;
+.btn{
+  position: absolute;
+  bottom: 24px;
+  right: 24px;
+  border: none;
+  background-color: var(--primary);
 }
