@@ -23,6 +23,7 @@ export function DialogResizableSidebar(props: PropsWithChildren<Props>) {
                 borderRight: '1px solid #f5f5f5'
             }}
         >
+            {children}
         </Resizable>
 
     );
