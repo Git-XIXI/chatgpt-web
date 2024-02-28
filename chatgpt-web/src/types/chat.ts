@@ -1,4 +1,4 @@
-import {GptVersion} from "@/app/constants";
+import {GlmModel} from "@/app/constants";
 
 export interface Dialog {
     // 头像
@@ -20,6 +20,8 @@ export interface Message {
     // 方向 发送者，接收者
     direction?: MessageDirection;
     role: MessageRole;
+    id: string;
+    streaming?: boolean;
 }
 
 export enum MessageType {
@@ -34,11 +36,11 @@ export enum MessageDirection{
 }
 
 export interface SessionConfig {
-    gptVersion: GptVersion;
+    glmModel: GlmModel;
 }
 
 export enum MessageRole{
-    system = 0,
-    user = 1,
-    assistant = 2
+    system = "system",
+    user = "user",
+    assistant = "assistant",
 }

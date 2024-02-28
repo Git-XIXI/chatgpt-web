@@ -3,11 +3,7 @@
 import styles from "./home.module.scss";
 import {SideBar} from "../../components/sidebar/sidebar";
 
-import {
-    HashRouter as Router,
-    Routes,
-    Route,
-} from "react-router-dom";
+import {HashRouter as Router, Route, Routes,} from "react-router-dom";
 import dynamic from "next/dynamic";
 import {Path} from "@/app/constants";
 import {useAppConfig} from "@/app/store/config";

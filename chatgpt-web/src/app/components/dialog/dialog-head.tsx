@@ -1,6 +1,7 @@
 import styles from './dialog-head.module.scss'
 import {userChatStore} from "@/app/store/chat-store";
 import {useNavigate} from "react-router-dom";
+
 export function DialogHead(){
     const navigate = useNavigate();
     const chatStore = userChatStore();
